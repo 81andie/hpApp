@@ -1,0 +1,155 @@
+
+
+.absolute-bg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+ background: url("https://wallpapercave.com/wp/wp3776017.jpg");
+ overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.imagen{
+  display: flex;
+
+  justify-content: center;
+ margin-top: 100px;
+  opacity: 80%;
+
+}
+
+@keyframes animateImage {
+  0% {
+    width: 0%;
+    opacity: 0%;
+    filter: drop-shadow(0px 0px 0px transparent);
+  }
+
+  20% {
+    width: 29%;
+    opacity: 40%;
+    filter: drop-shadow(0px 0px 0px transparent);
+  }
+
+  30% {
+    opacity: 50%;
+    filter: drop-shadow(0px 0px 0px transparent);
+  }
+
+  50% {
+    opacity: 55%;
+    filter: drop-shadow(0px 10px 0px transparent);
+  }
+
+  90% {
+    opacity: 70%;
+    filter: drop-shadow(30px 20px 4px #e2cc4f);
+  }
+
+
+  90% {
+    opacity: 80%;
+    filter: drop-shadow(30px 20px 4px #060606);
+  }
+
+
+  100% {
+    opacity: 90%;
+    filter: drop-shadow(20px 10px 4px transparent);
+  }
+}
+
+.logo{
+  width: 30%;
+  animation: animateImage 8s ease forwards;
+}
+
+
+
+
+
+
+
+
+
+.fog {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background: #fff;
+}
+
+.fog-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.fog-img {
+  position: absolute;
+ height: 100vh;
+
+  width: 300vw;
+  z-index: 2;
+}
+
+.fog-img-first {
+  background: url("https://i.ibb.co/SV6zbPG/fog-1.png");
+  background-repeat: repeat-x;
+  background-size: contain;
+  background-position: center;
+  animation: marquee 60s linear forwards;
+}
+
+.fog-img-second {
+  background: url("https://i.ibb.co/gVDXDJM/fog-2.png");
+  background-repeat: repeat-x;
+  background-size: contain;
+  background-position: center;
+  animation: marquee 20s linear forwards;
+}
+
+
+
+@keyframes marquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+    opacity: 90%;
+  }
+
+  100% {
+    transform: translate3d(-300vw, 0, 0);
+    opacity: 0;
+  }
+}
+
+.btn-entrar{
+
+  width: 100px;
+  height: 30px;
+  background-color: rgba(103, 234, 234, 0.535);
+  font-weight: bolder;
+  border-radius: 15px;
+  color: black;
+}
+
+.button{
+ display: flex;
+ justify-content: center;
+ margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+

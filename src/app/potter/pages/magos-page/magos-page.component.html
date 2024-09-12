@@ -1,0 +1,34 @@
+
+<div class="container_map">
+  <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/harry-potter-the-marauders-map-vintage-on-canvas-triptych-1-left-design-turnpike.jpg" class="map">
+
+  <div class="name_container">
+    <img src="https://meowlivia.s3.us-east-2.amazonaws.com/codepen/map/scroll.svg" class="merodeador">
+    <h1 class="title">Harry Potter</h1>
+  </div>
+
+  <div class="name_container1">
+    <img src="https://meowlivia.s3.us-east-2.amazonaws.com/codepen/map/scroll.svg" class="merodeador">
+    <h1 class="title1">Hermione Granger</h1>
+  </div>
+  </div>
+
+
+
+
+<div class="grid mt-3 p-4 container">
+  <div class="col-12 md:col-6 lg:col-4 flex mt-3" *ngFor="let character of magias">
+    <p-card header={{character.name}} subheader={{character.actor}} class="w-full h-full">
+      <div class="flex flex-row align-items-center">
+        <div class="flex align-items-center">
+          <img alt="Card" [src]="character.image" class="w-4rem h-6rem"/>
+          <img src="https://i.pinimg.com/originals/9a/a1/58/9aa15882779404d92ff9166d06022388.jpg"
+            class="h-4rem w-4rem p-2">
+        </div>
+        <div class="mt-2">
+          <p class="ml-2 text-2xl ">{{character.house}}</p>
+        </div>
+      </div>
+    </p-card>
+  </div>
+</div>
