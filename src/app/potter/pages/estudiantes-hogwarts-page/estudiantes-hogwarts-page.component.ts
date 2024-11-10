@@ -2,6 +2,8 @@ import { Component,OnInit } from '@angular/core';
 import { Magia } from '../../interfaces/mago.interface';
 import { HarryPotterService } from '../../services/magos.service';
 
+/*comentari de proba*/
+
 @Component({
   selector: 'app-estudiantes-hogwarts-page',
   templateUrl: './estudiantes-hogwarts-page.component.html',
