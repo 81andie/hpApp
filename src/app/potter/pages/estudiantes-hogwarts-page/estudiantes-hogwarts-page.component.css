@@ -1,96 +1,37 @@
-.container{
-  margin-top: 15rem;
+.container_map{
+
+  background-image: url("https://img.freepik.com/vector-gratis/fondo-papel-viejo-manchas_1048-2588.jpg?t=st=1731531046~exp=1731534646~hmac=ee16ba2c75da300723925ee2d0bb63afc59f2d7de8501444262790f8aa8576bd&w=740");
 }
 
-.map{
+.img-teacher{
+filter: grayscale(65%);
+width: 30vw;
+height:40vh;
+background-size: cover;
+object-fit: cover;
+background-image: url("https://m.media-amazon.com/images/M/MV5BMDcwOGEyZmUtNTgxYi00MWFiLWI4YTYtNTZhOGIyNjY5NzM5XkEyXkFqcGdeQXVyNzI1NzMxNzM@._V1_.jpg");
+transition: ease-in-out 3ms;
+opacity: 90%;
+}
+
+.img-teacher::before {
+  content: "";
   position: absolute;
-  top: 5;
-  width: 100vw;
-  height: 55vh;
-  object-fit: cover;
-
-}
-
-.name_container{
-  position: relative;
-  display: inline-block;
-  overflow: hidden;
-  top: 90px;
-  left: 490px;
-  transform: translateZ(-60%, -60%);
-  animation: slideStep 4s steps(10, end) infinite;
-
-}
-
-.name_container1{
-  position: relative;
-  display: inline-block;
-  overflow: hidden;
- left: 50px;
-  transform: translateZ(50%, 50%);
-  animation: slideStep1 8s steps(10, end) infinite;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://m.media-amazon.com/images/M/MV5BMDcwOGEyZmUtNTgxYi00MWFiLWI4YTYtNTZhOGIyNjY5NzM5XkEyXkFqcGdeQXVyNzI1NzMxNzM@._V1_.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(65%);
+  transition: opacity 0.5s ease-in-out;
+  opacity: 1;
 }
 
 
-
-.title,
-.title1{
-  position: absolute; /* Permite posicionar el título sobre la imagen */
-  top: 50%; /* Centra el título verticalmente */
-  left: 50%; /* Centra el título horizontalmente */
-  transform: translate(-50%, -50%); /* Ajusta la posición para que el título esté realmente centrado */
-  color: rgb(12, 11, 11); /* Cambia el color del texto según sea necesario */
-  font-size: 1rem;
-  line-height: 13px;/* Ajusta el tamaño de la fuente */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Opcional: Agrega sombra al texto para mejor visibilidad */
-  text-align: center;
-  font-family: almendra;
-  white-space: no-wrap;
-
+.img-teacher:hover::before {
+  opacity: 0;
 }
-
-@keyframes slideStep {
-  0% {
-
-    transform: translateX(0);
-    opacity: 3; /* Empieza en la posición inicial */
-  }
-
-  10% {
-
-    transform: translateX(-10%);
-     /* Empieza en la posición inicial */
-  }
-
-
-
-  100% {
-    transform: translateX(-50%);
-    opacity: 0 /* Termina fuera del contenedor */
-  }
-}
-
-
-@keyframes slideStep1 {
-  0% {
-
-    transform: translateX(0%);
-    opacity: 3; /* Empieza en la posición inicial */
-  }
-
-  10% {
-
-    transform: translateX(10%);
-     /* Empieza en la posición inicial */
-  }
-
-
-
-  100% {
-    transform: translateX(100%);
-     /* Termina fuera del contenedor */
-  }
-}
-
 
 
