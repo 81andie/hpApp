@@ -12,24 +12,24 @@
     <h1 class="title1">Harry Potter</h1>
   </div>
 
- 
+
   </div>
 
 
 
-<div class="grid p-4 container">
-  <div class="col-12 md:col-6 lg:col-4 flex mt-3" *ngFor="let staffs of staff">
-    <p-card header="Hogwarts Staff" subheader={{staffs.name}} class="w-full h-full letters">
+<div class="">
+  <div class="" *ngFor="let staffs of staff">
+    <p-card header="Hogwarts Staff" subheader={{staffs.name}} class="letters">
 
-      <div class="flex flex-row align-items-center">
-        <div class="flex flex-column align-items-center">
-          <div class="card flex align-items-center gap-2 flex-wrap flipleft  animation-delay-200 transition-delay-100 animation-iteration-1 animation-duration-300">
-            <p-chip><img src="https://cdn4.iconfinder.com/data/icons/harry-potter/100/final_collection-17-1024.png" class="w-3rem">{{staffs.house}}</p-chip>
-            <p-chip><img src="https://cdn4.iconfinder.com/data/icons/medical-and-health-33/100/sangue3-1024.png" class="w-2rem">{{staffs.ancestry || 'not information'}}</p-chip>
-            <p-chip><img src="https://cdn0.iconfinder.com/data/icons/ie_yummy/128/cake_13.png" class="w-2rem h-2rem p-1">{{staffs.yearOfBirth || 'not found'}} </p-chip>
-            <p-chip><img src="https://cdn2.iconfinder.com/data/icons/harry-potter-colour-collection/60/19_-_Harry_Potter_-_Colour_-_Harrys_Wand-1024.png" class="w-2rem h-2rem ">{{staffs.wand.wood || 'not found'}} </p-chip>
+      <div class="">
+        <div class="">
+          <div class="">
+            <p-chip><img src="https://cdn4.iconfinder.com/data/icons/harry-potter/100/final_collection-17-1024.png" class="">{{staffs.house}}</p-chip>
+            <p-chip><img src="https://cdn4.iconfinder.com/data/icons/medical-and-health-33/100/sangue3-1024.png" class="">{{staffs.ancestry || 'not information'}}</p-chip>
+            <p-chip><img src="https://cdn0.iconfinder.com/data/icons/ie_yummy/128/cake_13.png" class="">{{staffs.yearOfBirth || 'not found'}} </p-chip>
+            <p-chip><img src="https://cdn2.iconfinder.com/data/icons/harry-potter-colour-collection/60/19_-_Harry_Potter_-_Colour_-_Harrys_Wand-1024.png" class="">{{staffs.wand.wood || 'not found'}} </p-chip>
           </div>
-          <p card content="Actor" class="p-2 text-3xl">
+          <p card content="Actor" class="">
 
             <p-chip label={{staffs.actor}} image={{staffs.image}} alt="{{staffs.name}}"  />
           </p>

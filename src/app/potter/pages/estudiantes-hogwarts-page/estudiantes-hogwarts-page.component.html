@@ -13,22 +13,23 @@
 </div>
 
 
-<div class="grid p-4 container">
-  <div class="col-12 md:col-6 lg:col-4 flex mt-3" *ngFor="let estudent of estudents">
-    <p-card header="Hogwarts Students" subheader={{estudent.name}} class="w-full h-full letters">
+<div class="">
+  <div class="" *ngFor="let estudent of estudents">
+    <p-card header="Hogwarts Students" subheader={{estudent.name}} class="letters">
 
-      <div class="flex flex-row align-items-center">
-        <div class="flex flex-column align-items-center">
-          <div class="card flex align-items-center gap-2 flex-wrap flipleft  animation-delay-200 transition-delay-100 animation-iteration-1 animation-duration-300">
+      <div class="">
+        <div class="">
+          <div class="">
             <p-chip><img src="https://cdn4.iconfinder.com/data/icons/harry-potter/100/final_collection-17-1024.png" class="w-3rem">{{estudent.house}}</p-chip>
             <p-chip><img src="https://cdn4.iconfinder.com/data/icons/medical-and-health-33/100/sangue3-1024.png" class="w-2rem">{{estudent.ancestry || 'not information'}}</p-chip>
             <p-chip><img src="https://cdn0.iconfinder.com/data/icons/ie_yummy/128/cake_13.png" class="w-2rem h-2rem p-1">{{estudent.dateOfBirth || 'not found'}} </p-chip>
             <p-chip><img src="https://cdn2.iconfinder.com/data/icons/harry-potter-colour-collection/60/19_-_Harry_Potter_-_Colour_-_Harrys_Wand-1024.png" class="w-2rem h-2rem ">{{estudent.wand.wood || 'not found'}} </p-chip>
           </div>
-          <p card content="Actor" class="p-2 text-3xl">
-
+          <p card content="Actor" class="">
+            <img src="{{estudent.image}}" class=""/>
             <p-chip label={{estudent.actor}} image={{estudent.image}} alt="{{estudent.name}}"  />
           </p>
+
 
         </div>
 
