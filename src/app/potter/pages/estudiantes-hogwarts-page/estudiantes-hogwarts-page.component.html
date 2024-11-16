@@ -1,59 +1,45 @@
-<div class="container_map w-full h-5/6">
-  <div class="flex justify-center">
-    <img src="https://th.bing.com/th/id/R.6ebeec9508dd7a93005c1c9dab081a6f?rik=Dg9xRL4TSbziwQ&riu=http%3a%2f%2fpotter10th.weebly.com%2fuploads%2f9%2f4%2f7%2f9%2f94794318%2ftitle.png&ehk=TC5lA6E3Ls%2fxsyRBPdp0XyV5gIBeSHl4N5TRpbygdZY%3d&risl=&pid=ImgRaw&r=0" class="items-center w-48 ">
-  </div>
 
-  <div class="h-5/6 border-solid border-2 border-stone-800 p-2 m-1 ">
-   <div class="flex flex-row">
-    <div class="flex flex-col">
-        <h1 class="text-stone-200 font-extrabold font-serif">NEWS</h1>
-        <p class="text-stone-500 font-extrabold text-1xl">HARRY POTTER TO REPLACE SEVERUS SNAPE AS HOGWARTS PROFESSOR!</p>
-      </div>
+<!--ngFor="let estudent of estudents"
+{{estudent.name}}
+{{estudent.actor}}
+{{estudent.image}}
+{{estudent.house}}
 
-      <div class="flex flex-col ">
-        <p class="text-xs text-black">
-          In a surprising turn of events, sources close to Hogwarts staff have confirmed that none other than Harry Potter, the Boy Who Lived, is set to take on the role of Defense Against the Dark Arts professor. Following the resignation of the controversial Severus Snape, who held the position with unorthodox methods, it seems that Hogwarts has chosen young Potter as the ideal candidate to prepare students against rising threats.
-        </p>
-        <p>“He’s always had a knack for dealing with dark creatures and wizards,” commented a Gryffindor student, “so it’s exciting to see him in this new role!” However, some wonder if Potter, at only 18, is truly ready for the challenge of teaching students to defend themselves against dark magic.
+{{estudent.wand.wood || 'not found'}}
 
-          Will Potter live up to Professor Snape’s legacy, or will he face even greater challenges within the walls of Hogwarts? The Daily Prophet will keep you informed of every spellbinding detail.</p>
-        <div class="p-1 img-teacher" >
+-->
 
-      </div>
-
-
-
-
-
-
-
-
-
-
-
-   </div>
-  </div>
-
-
-
-
-<div class="grid grid-col-1 md:grid-cols-3 lg:grid-cols-3 gap-2 mt-20" >
-  <div  class="w-full" *ngFor="let estudent of estudents">
-    <p-card header="{{estudent.name}}" subheader={{estudent.actor}} >
-          <div class="grid grid-cols-2">
-              <img src="{{estudent.image}}" class="backdrop-blur-sm h-32 rounded-e-full object-contain hover:scale-75 "/>
-
-
-             <div>
-              <p-chip><img src="https://cdn4.iconfinder.com/data/icons/harry-potter/100/final_collection-17-1024.png" class="p-1">{{estudent.house}}</p-chip>
-              <p-chip><img src="https://cdn4.iconfinder.com/data/icons/medical-and-health-33/100/sangue3-1024.png" class="p-1 animate-pulse">{{estudent.ancestry || 'not information'}}</p-chip>
-              <p-chip><img src="https://cdn0.iconfinder.com/data/icons/ie_yummy/128/cake_13.png" class="p-1">{{estudent.dateOfBirth || 'not found'}} </p-chip>
-              <p-chip><img src="https://cdn2.iconfinder.com/data/icons/harry-potter-colour-collection/60/19_-_Harry_Potter_-_Colour_-_Harrys_Wand-1024.png" class="p-1 animate-bounce delay-75 ">{{estudent.wand.wood || 'not found'}} </p-chip>
-
-          </div>
-             </div>
-
-
-    </p-card>
-  </div>
+<div class="w-full mt-2  opacity-90">
+  <img src="https://ey49netbj7p.exactdn.com/wp-content/2020/09/harry-potter-hogwarts-legacy-salao-principal-redes-sociais.jpg" class="w-full h-60 object-cover img">
 </div>
+
+
+<div class="flex flex-row flex-wrap justify-center justify-items-center gap-3 rounded-lg mt-5">
+
+<div class="background w-72 h-72 rounded-t-lg" *ngFor="let estudent of estudents" >
+
+<div class="flex flex-colum w-full justify-center mt-12">
+  <p class="opacity-100 text-2xl text-violet-300">{{estudent.house}}</p>
+</div>
+
+<div class="flex flex-colum w-full justify-center mt-1">
+  <img src="{{estudent.image}}" class="w-12 h-22 object-cover rounded-full">
+  <p class="opacity-100 text-2xl text-yellow-400 text-wrap">{{estudent.name}}</p>
+</div>
+
+<div class="flex flex-colum w-full justify-center mt-1">
+
+
+  <p class="text-xl">{{estudent.ancestry || 'not information'}},<br>
+    {{estudent.dateOfBirth || 'not found'}}</p>
+
+
+</div>
+
+
+
+</div>
+
+</div>
+
+
