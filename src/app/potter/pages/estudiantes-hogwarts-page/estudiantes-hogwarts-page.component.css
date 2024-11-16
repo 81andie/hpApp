@@ -14,8 +14,8 @@
 }
 
 .background:hover{
-  opacity: 1;
- background-image: url("https://img.freepik.com/vector-gratis/plantilla-marco-lujo-dorado-degradado_23-2149051693.jpg?t=st=1731770187~exp=1731773787~hmac=c9a81ab38814bfe7f7e366463b73de9bd984349f754f2de3e2c578fa74d0576f&w=740")
+opacity: 1;
+ background-image: url("/assets/backgro.jpg");
 }
 
 
