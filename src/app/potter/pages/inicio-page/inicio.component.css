@@ -12,12 +12,7 @@
 
 }
 
-.imagen{
-  display: flex;
-  justify-content:center;
-  opacity: 80%;
 
-}
 
 @keyframes animateImage {
   0% {
@@ -61,17 +56,11 @@
 }
 
 .logo{
-  width: 35%;
-  margin-top: 100px;
-  margin-left: 150px;
+  width: 30%;
   animation: animateImage 8s ease forwards;
 }
 
 
-@media (min-width:600px) {
-.logo{
-  margin-left: 290px;
-} }
 
 
 .fog {
@@ -143,102 +132,17 @@
  margin-bottom: 30px;
 }
 
-.snictch-container{
-
-  animation: flotar 3s ease-in-out infinite;
-
-}
-
-@keyframes flotar {
-  0% {
-    transform: translateY(0);
-}
-50% {
-    transform: translateY(-5px);
-}
-100% {
-    transform: translateY(0);
-}
-}
-
-.cuerpo{
-  position: absolute;
-  top: 86%;
-  left: 30%;
-  transform: translate(-50%, -50%);
-  width: 10%;
-  animation: flotar 3s ease-in-out infinite;
-  filter: drop-shadow(2px 2px 4px #edd239);
-
-}
-
-.alaizquierda{
-  width: 35%;
-  filter: drop-shadow(2px 2px 4px #edd239);
-  transform-origin: bottom right;
-  animation: flap 0.1s ease-in-out infinite;
-
-}
-
-.aladerecha{
-  width: 30%;
-  transform-origin: bottom left;
-  animation: flap 0.01s ease-in-out infinite;
-  filter: drop-shadow(2px 2px 4px #b9aa52);
-
-}
-
-@keyframes flap {
-  0%, 100% {
-    transform: rotate(0deg);
-  }
-  50% {
-    transform: rotate(20deg);
-  }
-}
 
 
-.animacion{
-  animation: floatAndMove 5s ease-in-out infinite;
-}
 
-@keyframes floatAndMove {
-  0% {
 
-      transform: translateY(0) translateX(0);
-  }
-  25% {
 
-      transform: translateY(-10px) translateX(-50px);
-  }
 
-  35% {
 
-    transform: translateY(-20px) translateY(-50px);
-}
 
-45% {
 
-  transform: translateY(-20px) translateY(20px);
-}
-  50% {
 
-      transform: translateY(0) translateX(-60px);
-  }
 
-  60% {
-
-    transform: translateY(50px) translateX(-60px);
-}
-  75% {
-
-      transform: translateY(120px) translateX(-50px);
-  }
-  100% {
-
-      transform: translateY(0) translateX(0);
-  }
-}
 
 
 

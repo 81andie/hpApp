@@ -1,40 +1,45 @@
-<div class="container_map">
-<img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/harry-potter-the-marauders-map-vintage-on-canvas-triptych-1-left-design-turnpike.jpg" class="map">
 
-<div class="name_container">
-  <img src="https://meowlivia.s3.us-east-2.amazonaws.com/codepen/map/scroll.svg" class="merodeador">
-  <h1 class="title">Harry Potter</h1>
+<!--ngFor="let estudent of estudents"
+{{estudent.name}}
+{{estudent.actor}}
+{{estudent.image}}
+{{estudent.house}}
+
+{{estudent.wand.wood || 'not found'}}
+
+-->
+
+<div class="w-full mt-2  opacity-90">
+  <img src="https://ey49netbj7p.exactdn.com/wp-content/2020/09/harry-potter-hogwarts-legacy-salao-principal-redes-sociais.jpg" class="w-full h-60 object-cover img">
 </div>
 
-<div class="name_container1">
-  <img src="https://meowlivia.s3.us-east-2.amazonaws.com/codepen/map/scroll.svg" class="merodeador">
-  <h1 class="title1">Severus Snape</h1>
+
+<div class="flex flex-row flex-wrap justify-center justify-items-center gap-3 rounded-lg mt-5">
+
+<div class="background w-72 h-72 rounded-t-lg" *ngFor="let estudent of estudents" >
+
+<div class="flex flex-colum w-full justify-center mt-12">
+  <p class="opacity-100 text-2xl text-violet-300">{{estudent.house}}</p>
 </div>
+
+<div class="flex flex-colum w-full justify-center mt-1">
+  <img src="{{estudent.image}}" class="w-12 h-22 object-cover rounded-full">
+  <p class="opacity-100 text-2xl text-yellow-400 text-wrap">{{estudent.name}}</p>
+</div>
+
+<div class="flex flex-colum w-full justify-center mt-1">
+
+
+  <p class="text-xl">{{estudent.ancestry || 'not information'}},<br>
+    {{estudent.dateOfBirth || 'not found'}}</p>
+
+
 </div>
 
 
-<div class="">
-  <div class="" *ngFor="let estudent of estudents">
-    <p-card header="Hogwarts Students" subheader={{estudent.name}} class="letters">
 
-      <div class="">
-        <div class="">
-          <div class="">
-            <p-chip><img src="https://cdn4.iconfinder.com/data/icons/harry-potter/100/final_collection-17-1024.png" class="w-3rem">{{estudent.house}}</p-chip>
-            <p-chip><img src="https://cdn4.iconfinder.com/data/icons/medical-and-health-33/100/sangue3-1024.png" class="w-2rem">{{estudent.ancestry || 'not information'}}</p-chip>
-            <p-chip><img src="https://cdn0.iconfinder.com/data/icons/ie_yummy/128/cake_13.png" class="w-2rem h-2rem p-1">{{estudent.dateOfBirth || 'not found'}} </p-chip>
-            <p-chip><img src="https://cdn2.iconfinder.com/data/icons/harry-potter-colour-collection/60/19_-_Harry_Potter_-_Colour_-_Harrys_Wand-1024.png" class="w-2rem h-2rem ">{{estudent.wand.wood || 'not found'}} </p-chip>
-          </div>
-          <p card content="Actor" class="">
-            <img src="{{estudent.image}}" class=""/>
-            <p-chip label={{estudent.actor}} image={{estudent.image}} alt="{{estudent.name}}"  />
-          </p>
-
-
-        </div>
-
-      </div>
-
-    </p-card>
-  </div>
 </div>
+
+</div>
+
+
