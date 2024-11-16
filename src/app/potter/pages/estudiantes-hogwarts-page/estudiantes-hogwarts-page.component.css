@@ -14,8 +14,11 @@
 }
 
 .background:hover{
-opacity: 1;
- background-image: url("/assets/fondo1.avif");
+ opacity: 1;
+/* background-image: url("/assets/fondo1.avif");
+background-image: url("https://img.freepik.com/vector-gratis/minimal-art-deco-papel-pintado-brillo-dorado-decorativo_53876-58060.jpg?uid=R128113173&ga=GA1.1.911909887.1729527996&semt=ais_hybrid");*/
+background-image: url("/assets/backgro.jpg");
+
 }
 
 
