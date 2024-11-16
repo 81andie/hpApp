@@ -4,12 +4,14 @@
 .background{
  border: 1px solid goldenrod;
   font-family: almendra;
-  background-image: url("/assets/fondo.avif");
+  background-image: url("https://img.freepik.com/vector-gratis/vectores-coleccion-vintage-art-nouveau-insignia_53876-57467.jpg?t=st=1731779687~exp=1731783287~hmac=9700c91717b614ece733b6b6d1c4f766629a199f1277a621c5c2824516411569&w=740");
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: contain;
   opacity: 0.1;
   transition-duration: 1.5s;
+  background-image: url("https://img.freepik.com/vector-gratis/monoline-celestial-iconos-marco-vector-marco-cuadrado-negro_53876-105491.jpg?uid=R128113173&ga=GA1.1.911909887.1729527996&semt=ais_hybrid");
+
 
 }
 
@@ -17,7 +19,8 @@
  opacity: 1;
 /* background-image: url("/assets/fondo1.avif");
 background-image: url("https://img.freepik.com/vector-gratis/minimal-art-deco-papel-pintado-brillo-dorado-decorativo_53876-58060.jpg?uid=R128113173&ga=GA1.1.911909887.1729527996&semt=ais_hybrid");*/
-background-image: url("/assets/backgro.jpg");
+
+background-image: url("https://img.freepik.com/vector-gratis/vectores-coleccion-vintage-art-nouveau-insignia_53876-57467.jpg?t=st=1731779687~exp=1731783287~hmac=9700c91717b614ece733b6b6d1c4f766629a199f1277a621c5c2824516411569&w=740");
 
 }
 
