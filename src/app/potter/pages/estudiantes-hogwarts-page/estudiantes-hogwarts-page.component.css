@@ -4,7 +4,7 @@
 .background{
  border: 1px solid goldenrod;
   font-family: almendra;
-  background-image: url("https://img.freepik.com/vector-gratis/fondo-decorativo-elegante-borde-dorado_1048-12810.jpg?t=st=1731769703~exp=1731773303~hmac=3593416d3b651a4223e04687c86f476b81cf469f79a0cd5b1203a2124d3666a7&w=360");
+  background-image: url("/assets/fondo.avif");
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: contain;
@@ -15,7 +15,7 @@
 
 .background:hover{
 opacity: 1;
- background-image: url("/assets/backgro.jpg");
+ background-image: url("/assets/fondo1.avif");
 }
 
 
