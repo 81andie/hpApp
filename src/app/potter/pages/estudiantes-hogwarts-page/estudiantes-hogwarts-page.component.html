@@ -18,13 +18,14 @@
 
 <div class="background w-72 h-72 rounded-t-lg" *ngFor="let estudent of estudents" >
 
-<div class="flex flex-colum w-full justify-center mt-12">
-  <p class="opacity-100 text-2xl text-violet-300">{{estudent.house}}</p>
+<div class="flex flex-colum w-full justify-center mt-16">
+  <p class="opacity-100 text-1xl text-violet-300">{{estudent.house}}</p>
 </div>
 
 <div class="flex flex-colum w-full justify-center mt-1">
   <img src="{{estudent.image}}" class="w-12 h-22 object-cover rounded-full">
-  <p class="opacity-100 text-2xl text-yellow-400 text-wrap">{{estudent.name}}</p>
+  <br>
+  <p class="opacity-100 text-sm text-yellow-400 text-wrap">{{estudent.name}}</p>
 </div>
 
 <div class="flex flex-colum w-full justify-center ">

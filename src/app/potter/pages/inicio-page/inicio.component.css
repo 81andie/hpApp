@@ -1,62 +1,49 @@
 
 
 .absolute-bg {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  z-index: 0;
- background: url("https://wallpapercave.com/wp/wp3776017.jpg");
- overflow: hidden;
-  background-repeat: no-repeat;
-  background-size: cover;
-
+position: absolute;
+ width: 100%;
+ opacity: 10;
+ height: calc(100vh -143.94);
+z-index: 0;
 }
 
 
 
 @keyframes animateImage {
   0% {
-
+    width: 10%;
     opacity: 0%;
     filter: drop-shadow(0px 0px 0px transparent);
   }
 
-  20% {
-
-    opacity: 40%;
-    filter: drop-shadow(0px 0px 0px transparent);
-  }
-
-  30% {
-    opacity: 50%;
-    filter: drop-shadow(0px 0px 0px transparent);
-  }
-
-  50% {
-    opacity: 55%;
-    filter: drop-shadow(0px 10px 0px transparent);
-  }
 
   90% {
-    opacity: 70%;
-    filter: drop-shadow(30px 20px 4px #e2cc4f);
-  }
-
-
-  90% {
+    width: 30%;
     opacity: 80%;
-    filter: drop-shadow(30px 20px 4px #060606);
+    filter: drop-shadow(20px 10px 4px transparent);
+
   }
+
+  95%{
+    width: 30%;
+    opacity: 90%;
+    filter: drop-shadow(30px 20px 4px #0fe3e3);
+  }
+
+
 
 
   100% {
+    width: 30%;
     opacity: 90%;
     filter: drop-shadow(20px 10px 4px transparent);
   }
 }
 
 .logo{
-  width: 30%;
+  opacity: 0;
+
   animation: animateImage 8s ease forwards;
 }
 
@@ -67,7 +54,7 @@
   position: relative;
   height: 100vh;
   width: 100%;
-  background: #fff;
+
 }
 
 .fog-container {
@@ -80,8 +67,7 @@
 
 .fog-img {
   position: absolute;
- height: 100vh;
-
+ height:100vh;
   width: 300vw;
   z-index: 2;
 }
@@ -91,11 +77,13 @@
   background-repeat: repeat-x;
   background-size: contain;
   background-position: center;
+  filter: drop-shadow(10px 20px 4px #09d4c6);
   animation: marquee 60s linear forwards;
 }
 
 .fog-img-second {
   background: url("https://i.ibb.co/gVDXDJM/fog-2.png");
+  filter: drop-shadow(10px 20px 4px #00423d);
   background-repeat: repeat-x;
   background-size: contain;
   background-position: center;
