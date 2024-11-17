@@ -28,7 +28,7 @@ z-index: 0;
   95%{
     width: 30%;
     opacity: 90%;
-    filter: drop-shadow(30px 20px 4px #0fe3e3);
+    filter: drop-shadow(30px 20px 4px #bc49f12a);
   }
 
 
@@ -77,17 +77,17 @@ z-index: 0;
   background-repeat: repeat-x;
   background-size: contain;
   background-position: center;
-  filter: drop-shadow(10px 20px 4px #09d4c6);
-  animation: marquee 60s linear forwards;
+  filter: drop-shadow(10px 20px 4px #06a7f1fc);
+  animation: marquee 60s linear infinite;
 }
 
 .fog-img-second {
   background: url("https://i.ibb.co/gVDXDJM/fog-2.png");
-  filter: drop-shadow(10px 20px 4px #00423d);
+  filter: drop-shadow(10px 20px 4px #8f0bd0);
   background-repeat: repeat-x;
   background-size: contain;
   background-position: center;
-  animation: marquee 20s linear forwards;
+  animation: marquee 60s linear infinite;
 }
 
 
