@@ -9,6 +9,7 @@ import { HechizosPageComponent } from './pages/hechizos-page/hechizos-page.compo
 import { MaterialModule } from '../material/material.module';
 import { InicioComponent } from './pages/inicio-page/inicio.component';
 import { IniSection1Component } from './pages/ini-section1/ini-section1.component';
+import { SectionIni2Component } from './pages/section-ini2/section-ini2.component';
 
 
 
@@ -20,6 +21,7 @@ import { IniSection1Component } from './pages/ini-section1/ini-section1.componen
     HogwartsProfesPageComponent,
     HechizosPageComponent,
     IniSection1Component,
+    SectionIni2Component,
 
 
   ],
