@@ -8,6 +8,7 @@ import { HogwartsProfesPageComponent } from './pages/hogwarts-profes-page/hogwar
 import { HechizosPageComponent } from './pages/hechizos-page/hechizos-page.component';
 import { MaterialModule } from '../material/material.module';
 import { InicioComponent } from './pages/inicio-page/inicio.component';
+import { IniSection1Component } from './pages/ini-section1/ini-section1.component';
 
 
 
@@ -18,6 +19,7 @@ import { InicioComponent } from './pages/inicio-page/inicio.component';
     EstudiantesHogwartsPageComponent,
     HogwartsProfesPageComponent,
     HechizosPageComponent,
+    IniSection1Component,
 
 
   ],

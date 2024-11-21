@@ -1,0 +1,46 @@
+<div class="w-full  bg-fuchsia-50 text-center p-2">
+  <p class="text-black tituloSection1 text-2xl">Encuentra lo que quieras sobre el mundo mágico de Harry Potter</p>
+ <!--<div class="grid grid-cols-2 md:grid-cols-4 gap-2 p-1">-->
+    <!-- Estudiantes -->
+
+    <div class="flex flex-column md:flex-row flex-wrap justify-evenly">
+    <div
+      class="relative w-32 h-32 bg-fuchsia-100 rounded-md border-dotted border-2 border-fuchsia-400 mx-auto cursor-pointer animate-fade-in-up "
+      [routerLink]="['/estudiantes']"
+    >
+      <img src="assets/images/harry.jpg" class="absolute inset-0 w-full h-full object-cover rounded-md" />
+      <div class="absolute bottom-0 left-0 w-full h-7 bg-fuchsia-50 bg-opacity-75 py-1">
+        <p class="text-fuchsia-600 text-lg">Estudiantes</p>
+      </div>
+    </div>
+
+    <!-- Hechizos -->
+    <div
+      class="relative w-32 h-32 bg-fuchsia-100 rounded-md border-dotted border-2 border-fuchsia-400 mx-auto cursor-pointer animate-fade-in-up"
+      [routerLink]="['/hechizos']"
+    >
+      <img src="assets/images/olomora.jpg" class="absolute inset-0 w-full h-full object-cover rounded-md" />
+      <div class="absolute bottom-0 h-7 left-0 w-full bg-fuchsia-50 bg-opacity-75 py-1">
+        <p class="text-fuchsia-600 text-lg">Hechizos</p>
+      </div>
+    </div>
+
+    <!-- Maestros -->
+    <div
+      class="relative w-32 h-32 bg-fuchsia-100 rounded-md border-dotted border-2 border-fuchsia-400 mx-auto cursor-pointer animate-fade-in-up"
+      [routerLink]="['/maestros']"
+    >
+      <img src="assets/images/maestros.jpg" class="absolute inset-0 w-full h-full object-cover rounded-md" />
+      <div class="absolute bottom-0 left-0 w-full h-7 bg-fuchsia-50 bg-opacity-75 py-1">
+        <p class="text-fuchsia-600 text-lg">Maestros</p>
+      </div>
+    </div>
+
+    <!-- Otra sección -->
+
+  </div>
+</div>
+
+
+
+
