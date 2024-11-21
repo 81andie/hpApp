@@ -17,7 +17,7 @@
 
 .background:hover{
  opacity: 1;
- background-image:url("/assets/images/backgro.jpg")
+ background-image:url("assets/images/backgro.jpg")
 }
 
 
