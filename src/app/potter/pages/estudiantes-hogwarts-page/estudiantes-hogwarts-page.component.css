@@ -2,9 +2,9 @@
 
 
 .background{
- border: 1px solid goldenrod;
+
   font-family: almendra;
-  background-image: url("/assets/images/fondo.avif");
+
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: contain;
@@ -15,7 +15,7 @@
 
 .background:hover{
  opacity: 1;
- background-image:url("/assets/images/backgro.jpg")
+
 }
 
 

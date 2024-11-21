@@ -1,136 +1,14 @@
 
-
-.absolute-bg {
-position: absolute;
- width: 100%;
- opacity: 10;
- height: calc(100vh-143.94px);
-z-index: 0;
+.titulo1{
+  font-family: "Dancing Script", cursive;
 }
 
+.potion,
+.orden{
 
-
-@keyframes animateImage {
-  0% {
-    width: 10%;
-    opacity: 0%;
-    filter: drop-shadow(0px 0px 0px transparent);
-  }
-
-
-  90% {
-    width: 30%;
-    opacity: 80%;
-    filter: drop-shadow(20px 10px 4px transparent);
-
-  }
-
-  95%{
-    width: 30%;
-    opacity: 90%;
-    filter: drop-shadow(30px 20px 4px #bc49f12a);
-  }
-
-
-
-
-  100% {
-    width: 30%;
-    opacity: 90%;
-    filter: drop-shadow(20px 10px 4px transparent);
-  }
-}
-
-.logo{
-  opacity: 0;
-
-  animation: animateImage 8s ease forwards;
-}
-
-
-
-
-.fog {
-  position: relative;
-  height: 100vh;
-  width: 100%;
+  filter: drop-shadow(0 0 0.75rem rgb(223, 181, 249));
 
 }
-
-.fog-container {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  z-index: 1;
-}
-
-.fog-img {
-  position: absolute;
- height:100vh;
-  width: 300vw;
-  z-index: 2;
-}
-
-.fog-img-first {
-  background: url("https://i.ibb.co/SV6zbPG/fog-1.png");
-  background-repeat: repeat-x;
-  background-size: contain;
-  background-position: center;
-  filter: drop-shadow(10px 20px 4px #06a7f1fc);
-  animation: marquee 60s linear infinite;
-}
-
-.fog-img-second {
-  background: url("https://i.ibb.co/gVDXDJM/fog-2.png");
-  filter: drop-shadow(10px 20px 4px #8f0bd0);
-  background-repeat: repeat-x;
-  background-size: contain;
-  background-position: center;
-  animation: marquee 60s linear infinite;
-}
-
-
-
-@keyframes marquee {
-  0% {
-    transform: translate3d(0, 0, 0);
-    opacity: 90%;
-  }
-
-  100% {
-    transform: translate3d(-300vw, 0, 0);
-    opacity: 0;
-  }
-}
-
-.btn-entrar{
-
-  width: 100px;
-  height: 30px;
-  background-color: rgba(103, 234, 234, 0.535);
-  font-weight: bolder;
-  border-radius: 15px;
-  color: black;
-}
-
-.button{
- display: flex;
- justify-content: center;
- margin-bottom: 30px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
