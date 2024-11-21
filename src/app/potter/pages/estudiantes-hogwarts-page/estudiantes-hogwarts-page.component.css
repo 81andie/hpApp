@@ -4,7 +4,7 @@
 .background{
  border: 1px solid goldenrod;
   font-family: almendra;
-  background-image: url("https://img.freepik.com/vector-gratis/fondo-decorativo-elegante-borde-dorado_1048-12810.jpg?t=st=1731769703~exp=1731773303~hmac=3593416d3b651a4223e04687c86f476b81cf469f79a0cd5b1203a2124d3666a7&w=360");
+  background-image: url("assets/images/fondo.avif");
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: contain;
@@ -17,11 +17,7 @@
 
 .background:hover{
  opacity: 1;
-/* background-image: url("/assets/fondo1.avif");
-background-image: url("https://img.freepik.com/vector-gratis/minimal-art-deco-papel-pintado-brillo-dorado-decorativo_53876-58060.jpg?uid=R128113173&ga=GA1.1.911909887.1729527996&semt=ais_hybrid");*/
-
-background-image: url("/hpApp/assets/marcodorado.avif");
-
+ background-image:url("/assets/images/backgro.jpg")
 }
 
 
