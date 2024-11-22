@@ -10,6 +10,7 @@ import { MaterialModule } from '../material/material.module';
 import { InicioComponent } from './pages/inicio-page/inicio.component';
 import { IniSection1Component } from './pages/ini-section1/ini-section1.component';
 import { SectionIni2Component } from './pages/section-ini2/section-ini2.component';
+import { Section3IniComponent } from './pages/section3-ini/section3-ini.component';
 
 
 
@@ -22,6 +23,7 @@ import { SectionIni2Component } from './pages/section-ini2/section-ini2.componen
     HechizosPageComponent,
     IniSection1Component,
     SectionIni2Component,
+    Section3IniComponent,
 
 
   ],
