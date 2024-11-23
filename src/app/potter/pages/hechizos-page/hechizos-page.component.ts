@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Magia } from '../../interfaces/mago.interface';
+import { Magia, Spell } from '../../interfaces/mago.interface';
 import { HarryPotterService } from '../../services/magos.service';
 
 @Component({
@@ -9,8 +9,7 @@ import { HarryPotterService } from '../../services/magos.service';
 })
 export class HechizosPageComponent implements OnInit{
 
-  spells: Magia[]=[];
-
+  spells: Spell[]=[];
   constructor (private harryPotterService: HarryPotterService){ }
 
 
@@ -20,5 +19,6 @@ export class HechizosPageComponent implements OnInit{
       console.log(this.spells)
     })
 
+    console.log (this.spells)
 }
 }

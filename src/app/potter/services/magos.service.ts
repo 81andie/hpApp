@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { Magia } from '../interfaces/mago.interface';
+import { Magia, Spell } from '../interfaces/mago.interface';
 
 @Injectable({providedIn: 'root'})
 
@@ -31,8 +31,8 @@ export class HarryPotterService {
   getStaff(): Observable<Magia[]>{
     return this.http.get<Magia[]>(this.apiUrlTeachers)}
 
-    getSpells(): Observable<Magia[]>{
-      return this.http.get<Magia[]>(this.apiUrlSpells)}
+    getSpells(): Observable<Spell[]>{
+      return this.http.get<Spell[]>(this.apiUrlSpells)}
 
 
 }

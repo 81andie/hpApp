@@ -1,25 +1,25 @@
 export interface Magia {
-  id:               string;
-  name:             string;
-  alternate_names:  string[];
-  species:          string;
-  gender:           Gender;
-  house:            House;
-  dateOfBirth:      null | string;
-  yearOfBirth:      number | null;
-  wizard:           boolean;
-  ancestry:         Ancestry;
-  eyeColour:        EyeColour;
-  hairColour:       HairColour;
-  wand:             Wand;
-  patronus:         Patronus;
-  hogwartsStudent:  boolean;
-  hogwartsStaff:    boolean;
-  actor:            string;
+  id: string;
+  name: string;
+  alternate_names: string[];
+  species: string;
+  gender: Gender;
+  house: House;
+  dateOfBirth: null | string;
+  yearOfBirth: number | null;
+  wizard: boolean;
+  ancestry: Ancestry;
+  eyeColour: EyeColour;
+  hairColour: HairColour;
+  wand: Wand;
+  patronus: Patronus;
+  hogwartsStudent: boolean;
+  hogwartsStaff: boolean;
+  actor: string;
   alternate_actors: string[];
-  alive:            boolean;
-  image:            string;
-  description:      string;
+  alive: boolean;
+  image: string;
+  description: string;
 }
 
 export enum Ancestry {
@@ -108,8 +108,8 @@ export enum Patronus {
 }
 
 export interface Wand {
-  wood:   string;
-  core:   Core;
+  wood: string;
+  core: Core;
   length: number | null;
 }
 
@@ -120,5 +120,13 @@ export enum Core {
   PhoenixTailFeather = "phoenix tail feather",
   UnicornHair = "unicorn hair",
   UnicornTailHair = "unicorn tail hair",
+}
+
+
+export interface Spell {
+  id: string;
+  name: string;
+  description: string;
+  image: string | null;
 }
 
