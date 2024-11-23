@@ -9,6 +9,21 @@
   <img src="assets/images/leviosa1.png" class="spell w-56 subtle-bounce">
 </div>
 
+<div class="flex flex-column md:flex-row flex-wrap justify-evenly gap-5 card" >
+  <div class="relative w-44 h-72 bg-fuchsia-100 rounded-md border-dotted border-2 border-fuchsia-400 mx-auto cursor-pointer animate-fade-in-up shadow-md" *ngFor="let spell of spells" >
+
+    <img [src]="spell.image" class="absolute inset-0 w-full h-full object-cover rounded-md"  />
+    <div class="absolute bottom-0 left-0 w-full h-28 bg-fuchsia-50 bg-opacity-75 py-0">
+      <div class="text-fuchsia-600 text-center">
+        <p class="text-sm">{{spell.name}}</p>
+        <p class="description p-1 font-bold items-center">{{spell.description}}</p>
+
+
+    </div>
+  </div>
+
+
+
 
 
 

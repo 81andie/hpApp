@@ -14,11 +14,20 @@ export class HechizosPageComponent implements OnInit{
 
 
   ngOnInit(): void {
-    this.harryPotterService.getSpells().subscribe(data =>{
-      this.spells = data;
-      console.log(this.spells)
-    })
+this.getSpell();
 
-    console.log (this.spells)
 }
+
+
+getSpell(){
+  this.harryPotterService.getSpells().subscribe(data =>{
+    this.spells = data;
+    console.log(this.spells)
+  })
+}
+
+
+
+
+
 }
