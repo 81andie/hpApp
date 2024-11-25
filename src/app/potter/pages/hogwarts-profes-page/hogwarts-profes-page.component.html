@@ -1,16 +1,6 @@
+<div class="h-56  flex w-full absolute  opacity-90 container-title ">
 
-<div class="container_map">
-  <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/harry-potter-the-marauders-map-vintage-on-canvas-triptych-1-left-design-turnpike.jpg" class="map">
-
-  <div class="name_container">
-    <img src="https://meowlivia.s3.us-east-2.amazonaws.com/codepen/map/scroll.svg" class="merodeador">
-    <h1 class="title"> Albus Dumbledore</h1>
-  </div>
-
-  <div class="name_container1">
-    <img src="https://meowlivia.s3.us-east-2.amazonaws.com/codepen/map/scroll.svg" class="merodeador">
-    <h1 class="title1">Harry Potter</h1>
-  </div>
+  <img src="https://i.pinimg.com/originals/cd/94/14/cd9414ce56c1616c229a6a30c3a31049.gif" class="w-96 h-56">
 
 
   </div>
@@ -19,25 +9,7 @@
 
 <div class="">
   <div class="" *ngFor="let staffs of staff">
-    <p-card header="Hogwarts Staff" subheader={{staffs.name}} class="letters">
+    {{staffs.name}}{{staffs.house}}{{staffs.ancestry || 'not information'}} {{staffs.wand.wood || 'not found'}}
+    {{staffs.actor}} image={{staffs.image}}
 
-      <div class="">
-        <div class="">
-          <div class="">
-            <p-chip><img src="https://cdn4.iconfinder.com/data/icons/harry-potter/100/final_collection-17-1024.png" class="">{{staffs.house}}</p-chip>
-            <p-chip><img src="https://cdn4.iconfinder.com/data/icons/medical-and-health-33/100/sangue3-1024.png" class="">{{staffs.ancestry || 'not information'}}</p-chip>
-            <p-chip><img src="https://cdn0.iconfinder.com/data/icons/ie_yummy/128/cake_13.png" class="">{{staffs.yearOfBirth || 'not found'}} </p-chip>
-            <p-chip><img src="https://cdn2.iconfinder.com/data/icons/harry-potter-colour-collection/60/19_-_Harry_Potter_-_Colour_-_Harrys_Wand-1024.png" class="">{{staffs.wand.wood || 'not found'}} </p-chip>
-          </div>
-          <p card content="Actor" class="">
-
-            <p-chip label={{staffs.actor}} image={{staffs.image}} alt="{{staffs.name}}"  />
-          </p>
-
-        </div>
-
-      </div>
-
-    </p-card>
-  </div>
 </div>
