@@ -1,4 +1,4 @@
-import { Component,OnInit } from '@angular/core';
+import { AfterViewInit, Component,HostListener,OnInit } from '@angular/core';
 import { Magia } from '../../interfaces/mago.interface';
 import { HarryPotterService } from '../../services/magos.service';
 
@@ -24,6 +24,5 @@ export class EstudiantesHogwartsPageComponent implements OnInit{
     })
   }
 
-
-
+ 
 }
