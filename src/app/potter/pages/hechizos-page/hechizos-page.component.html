@@ -5,7 +5,8 @@
 
 
 
-<div class="flex justify-center ">
+<div class="flex justify-center items-center">
+  <h1 class="text-6xl text-center titleSection  subtle-bounce">Spells</h1>
   <img src="assets/images/leviosa1.png" class="spell w-56 subtle-bounce">
 </div>
 
@@ -13,12 +14,14 @@
   <div class="relative w-44 h-72 bg-fuchsia-100 rounded-md border-dotted border-2 border-fuchsia-400 mx-auto cursor-pointer animate-fade-in-up shadow-md" *ngFor="let spell of spells" >
 
     <img [src]="spell.image" class="absolute inset-0 w-full h-48 object-cover rounded-md"  />
-    <div class="absolute bottom-0 left-0 w-full hover:h-full  bg-fuchsia-50 bg-opacity-75 py-0">
-      <div class="text-fuchsia-600 text-center">
-        <p class="text-sm">{{spell.name}}</p>
+    <div class="absolute bottom-0 left-0 w-full  bg-fuchsia-50 bg-opacity-75 py-0">
+      <div class="text-fuchsia-500 text-center">
+        <p class="text-xl text-black font-bold spell">{{spell.name}}</p>
         <p class="description p-1 font-bold items-center">{{spell.description}}</p>
 
     </div>
+  </div>
+  </div>
   </div>
 
 
