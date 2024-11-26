@@ -22,6 +22,37 @@ export class MagosPageComponent implements OnInit {
 
   }
 
+  particlesOptions = {
+    background: {
+      color: { value: "#0d1b2a" }, // Fondo oscuro
+    },
+    particles: {
+      shape: {
+        type: "polygon", // Usa formas geométricas
+        options: {
+          sides: 6, // Número de lados (hexágonos)
+        },
+      },
+      color: { value: ["#ff80f0", "#ffd700", "#ffffff"] },
+      opacity: { value: 0.7 },
+      size: { value: { min: 3, max: 10 } },
+      move: {
+        enable: true,
+        speed: 1,
+        direction: "none",
+        outModes: { default: "bounce" },
+      },
+    },
+    interactivity: {
+      events: {
+        onHover: { enable: true, mode: "repulse" },
+      },
+      modes: {
+        repulse: { distance: 100 },
+      },
+    },
+  };
+
 
 
 }
