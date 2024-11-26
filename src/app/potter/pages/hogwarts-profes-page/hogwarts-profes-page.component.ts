@@ -15,7 +15,7 @@ export class HogwartsProfesPageComponent  implements OnInit{
 
   ngOnInit(): void {
     this.harryPotterService.getStaff().subscribe(data =>{
-      this.staff = data.slice(0,10);
+      this.staff = data.slice(0,9);
       console.log(this.staff)
     })
 

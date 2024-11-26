@@ -4,27 +4,31 @@
   </div>
 
   <div class="w-full  intro-titulo grid grid-cols-1 md:grid-cols-2 mb-2 slide-in-left">
-   <iframe src="assets/images/Hogwartsismyhome.mp4" width="450" height="250" class="mt-40 p-2"></iframe>
+
 
     <article class="text-sm mt-7 ml-2 mr-2">
-      <p class="text-4xl text-center titulo1">✨Pero que és hogwarts??✨</p>
+      <p class="text-4xl text-center text-transparent bg-clip-text bg-gradient-to-r to-fuchsia-200 from-fuchsia-500 font-extrabold">Pero que és hogwarts??</p>
       <p class="text-md text-justify p-3">El Colegio Hogwarts de Magia y Hechicería es una escuela a la cual asisten jóvenes magos para desarrollar sus habilidades mágicas. Pertenece al universo de la saga de libros de Harry Potter.
 
         <br><br>📜 El edificio, situado en las colinas de Escocia, es visto como un antiguo edificio en ruinas con un cartel que dice "cuidado, ruinas peligrosas", por las personas ajenas a poderes mágicos (más comúnmente conocidos como muggles). Tiene siete plantas, varias torres, escaleras que cambian de posición a su antojo y extensos terrenos que contienen un lago, un bosque, llamado El Bosque Prohibido, y varios invernaderos con fines botánicos. Además de sus numerosas aulas en las que se imparten las clases de pociones, transformaciones, Defensa contra las Artes Oscuras, Historia de la magia y demás asignaturas por asistentes calificados, el castillo posee lugares con fines diferentes.
        A continuación os presentamos algunos de los estudiantes de hogwarts más destacados
 </article>
+
+    <iframe src="assets/images/Hogwartsismyhome.mp4" width="450" height="275" class="mt-40 p-2"></iframe>
+
+
 </div>
 
 
-<h1 class="title-section  h-20 text-center text-6xl drop-shadow-md shadow-blue-600 ">Students of Hodwarts</h1>
+<p class="text-4xl text-center text-transparent bg-clip-text bg-gradient-to-r to-fuchsia-200 from-fuchsia-500 font-extrabold">Students of Hodwarts</p>
 
-<div class="mt-38 flex flex-column md:flex-row flex-wrap justify-evenly gap-5 card w-5/6 md:ml-20 ml-9" >
+<div class="mt-10 flex flex-column md:flex-row flex-wrap justify-evenly gap-5 card w-5/6 md:ml-20 ml-12" >
   <div class="relative w-44 h-72 bg-fuchsia-100 rounded-md border-dotted border-2 border-fuchsia-400 mx-auto cursor-pointer animate-fade-in-up shadow-md shadow-fuchsia-400" *ngFor="let estudent of estudents" >
 
     <img [src]="estudent.image" class="absolute inset-0 w-full h-full object-cover rounded-md"  />
     <div class="absolute bottom-0 left-0 w-full h-18 bg-fuchsia-50 bg-opacity-75 py-0">
       <div class="text-fuchsia-500 text-center">
-        <p class="text-xl text-black font-bold name">{{estudent.name}}</p>
+        <p class="text-sm text-black font-bold name">✨{{estudent.name}}✨</p>
         <p class="description p-1 font-bold items-center">{{estudent.ancestry || 'not information'}} <br> {{estudent.dateOfBirth || 'not information'}}</p>
 
     </div>

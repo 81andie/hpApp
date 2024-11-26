@@ -1,14 +1,33 @@
-<div class="h-56  flex w-full absolute  opacity-90 container-title ">
-
-  <img src="https://i.pinimg.com/originals/cd/94/14/cd9414ce56c1616c229a6a30c3a31049.gif" class="w-96                                                                 h-56">
-
+<div class="flex flex-col justify-center items-center w-full  bg-fuchsia-200 text-sm text-center text-black font-bold mb-6">
+  <p class="text-xs titulo1" >Aqui tienes los maestros de esta saga, quieres conocerlos?</p>
   </div>
 
+  <h1 class="title-section  h-20 text-center text-6xl drop-shadow-md font-extrabold">Teachers of Hodwarts</h1>
 
+<div class=" w-full  intro-titulo grid grid-cols-1 md:grid-cols-2 mb-2 slide-in-left" >
+  <img src="https://i.pinimg.com/originals/cd/94/14/cd9414ce56c1616c229a6a30c3a31049.gif" class=" hodwarts animate-slide-in-left">
 
-<div class="">
-  <div class="" *ngFor="let staffs of staff">
-    {{staffs.name}}{{staffs.house}}{{staffs.ancestry || 'not information'}} {{staffs.wand.wood || 'not found'}}
-    {{staffs.actor}} image={{staffs.image}}
+  <article class="text-sm mt-7 ml-2 mr-2">
+    <p class="text-3xl text-center titulo1">✨Conoce a los principales profesores de Hogwarts✨</p>
+    <p class="text-md text-justify p-3">Los profesores de Hogwarts usan el título de Maestro cuando se habla con muchos estudiantes.
 
+      <br><br>📜 El término señor o Madame es un término alternativo para el profesor dependiendo del género del profesor. Mientras que ellos hablando con los colegiales usualmente usan el primer nombre. La mayoría de los maestros se refieren por el primer nombre a sus compañeros de trabajo; sin embargo este no es el caso del Profesor Snape, quien prefiere usar los apellidos, por ejemplo al llamar a Remus Lupin, Lupin o a Gilderoy Lockhart profesor Lockhart en el Club de duelo en Harry Potter y la Cámara Secreta.
+
+      Los profesores además tienen la facultad de conceder o quitar puntos.🪄✨</p>
+
+  </article>
 </div>
+
+<div class="flex flex-column md:flex-row flex-wrap justify-evenly gap-5 card w-5/6 md:ml-20 ml-9"  >
+  <div class="relative w-44 h-72 bg-fuchsia-100 rounded-md border-dotted border-2 border-fuchsia-400 mx-auto cursor-pointer animate-fade-in-up shadow-md" *ngFor="let staffs of staff">
+
+   <img [src]="staffs.image ? staffs.image : 'https://th.bing.com/th/id/OIP.UW63Qyl9ZW9x7AY3Iu2AJQHaHa?w=202&h=202&c=7&r=0&o=5&dpr=1.7&pid=1.7'" class="absolute inset-0 w-full h-48 object-cover rounded-md"/>
+    <div class="absolute bottom-0 left-0 w-full  bg-fuchsia-50 bg-opacity-75 py-0">
+      <div class="text-fuchsia-500 text-center">
+        <p class="text-xl text-black font-bold spell">{{staffs.name}}</p>
+        <p class="description p-1 font-bold items-center">{{staffs.house}}<br> {{staffs.ancestry}}</p>
+
+    </div>
+  </div>
+  </div>
+  </div>
