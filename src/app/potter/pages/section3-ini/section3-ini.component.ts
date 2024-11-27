@@ -10,7 +10,7 @@ import 'aos/dist/aos.css';
 export class Section3IniComponent implements OnInit{
   ngOnInit(): void {
     AOS.init({
-      duration: 3700,
+      duration: 3000,
       easing: 'ease',
       once: true,
     });
