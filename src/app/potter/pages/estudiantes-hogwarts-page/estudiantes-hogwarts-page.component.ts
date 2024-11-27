@@ -1,6 +1,8 @@
-import { AfterViewInit, Component,HostListener,OnInit } from '@angular/core';
+import { Component,OnInit } from '@angular/core';
 import { Magia } from '../../interfaces/mago.interface';
 import { HarryPotterService } from '../../services/magos.service';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 /*comentari de proba*/
 
@@ -22,6 +24,12 @@ export class EstudiantesHogwartsPageComponent implements OnInit{
       this.estudents = data.slice(0,10);
       console.log(this.estudents)
     })
+
+    AOS.init({
+      duration: 3000,
+      easing: 'ease',
+      once: true,
+    });
   }
 
 
