@@ -1,7 +1,8 @@
 
 import { Component, OnInit } from '@angular/core';
 import { Magia } from '../../interfaces/mago.interface';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { HarryPotterService } from '../../services/magos.service';
 
 
@@ -32,7 +33,15 @@ export class MagosPageComponent implements OnInit {
       console.log(this.magias);
     })
 
+    AOS.init({
+      duration: 1000,
+      easing: 'ease',
+      once: true,
+    });
+
   }
+
+
 
 }
 

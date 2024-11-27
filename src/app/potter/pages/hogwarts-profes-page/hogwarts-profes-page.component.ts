@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Magia } from '../../interfaces/mago.interface';
 import { HarryPotterService } from '../../services/magos.service';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 @Component({
   selector: 'app-hogwarts-profes-page',
@@ -18,6 +20,12 @@ export class HogwartsProfesPageComponent  implements OnInit{
       this.staff = data.slice(0,9);
       console.log(this.staff)
     })
+
+    AOS.init({
+      duration: 3000,
+      easing: 'ease',
+      once: true,
+    });
 
 }
 }
