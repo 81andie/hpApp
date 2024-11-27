@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+declare var AOS: any; 
 
 @Component({
   selector: 'app-inicio',

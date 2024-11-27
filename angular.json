@@ -45,10 +45,12 @@
               "node_modules/primeicons/primeicons.css",
               "node_modules/primeng/resources/themes/arya-green/theme.css",
               "node_modules/primeng/resources/primeng.min.css",
-               "node_modules/aos/dist/aos.css"
+              "src/assets/aos/aos.css"
 
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/aos/aos.js"
+            ]
           },
           "configurations": {
             "production": {

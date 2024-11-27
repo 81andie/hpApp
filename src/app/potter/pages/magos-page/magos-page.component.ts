@@ -1,13 +1,12 @@
 
 import { Component, OnInit } from '@angular/core';
 import { Magia } from '../../interfaces/mago.interface';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 import { HarryPotterService } from '../../services/magos.service';
 
 
 
-
+declare var AOS: any; 
 
 @Component({
   selector: 'app-magos-page',
