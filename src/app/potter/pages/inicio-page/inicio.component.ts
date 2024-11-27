@@ -13,9 +13,7 @@ export class InicioComponent implements OnInit{
       duration: 1000,
       easing: 'ease',
       once: true,
-    }
-
-    );
+    });
   }
 
 }
