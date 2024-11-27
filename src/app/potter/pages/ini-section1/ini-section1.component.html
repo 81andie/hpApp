@@ -3,10 +3,13 @@
  <!--<div class="grid grid-cols-2 md:grid-cols-4 gap-2 p-1">-->
     <!-- Estudiantes -->
 
-    <div class="flex flex-column md:flex-row flex-wrap justify-evenly gap-5 card ">
-    <div
-      class="relative w-32 h-32 bg-fuchsia-100 rounded-md border-dotted border-2 border-fuchsia-400 mx-auto cursor-pointer animate-fade-in-up shadow-md"
+    <div class="flex flex-column md:flex-row flex-wrap justify-evenly gap-5 card" >
+    <div class="relative w-32 h-32 bg-fuchsia-100 rounded-md border-dotted border-2 border-fuchsia-400 mx-auto cursor-pointer  shadow-md"
       [routerLink]="['/estudiantes']"
+      data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="3000"
+
     >
       <img src="assets/images/harry.jpg" class="absolute inset-0 w-full h-full object-cover rounded-md" />
       <div class="absolute bottom-0 left-0 w-full h-7 bg-fuchsia-50 bg-opacity-75 py-1">
@@ -16,8 +19,11 @@
 
     <!-- Hechizos -->
     <div
-      class="relative w-32 h-32 bg-fuchsia-100 rounded-md border-dotted border-2 border-fuchsia-400 mx-auto cursor-pointer animate-fade-in-up"
+      class="relative w-32 h-32 bg-fuchsia-100 rounded-md border-dotted border-2 border-fuchsia-400 mx-auto cursor-pointer"  data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="3000"
       [routerLink]="['/hechizos']"
+
     >
       <img src="assets/images/olomora.jpg" class="absolute inset-0 w-full h-full object-cover rounded-md" />
       <div class="absolute bottom-0 h-7 left-0 w-full bg-fuchsia-50 bg-opacity-75 py-1">
@@ -27,7 +33,9 @@
 
     <!-- Maestros -->
     <div
-      class="relative w-32 h-32 bg-fuchsia-100 rounded-md border-dotted border-2 border-fuchsia-400 mx-auto cursor-pointer animate-fade-in-up"
+      class="relative w-32 h-32 bg-fuchsia-100 rounded-md border-dotted border-2 border-fuchsia-400 mx-auto cursor-pointer"  data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="3000"
       [routerLink]="['/maestros']"
     >
       <img src="assets/images/maestros.jpg" class="absolute inset-0 w-full h-full object-cover rounded-md" />

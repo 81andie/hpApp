@@ -7,3 +7,14 @@
 .card{
   filter: drop-shadow(0 0 0.75rem rgb(214, 158, 250));
 }
+
+[data-aos="flip-left"] {
+  opacity: 0;
+  transform: rotateY(-180deg); /* Empuja el contenido hacia un giro de 180 grados */
+}
+
+/* Esto hace que la animación sea un "flip" */
+[data-aos="flip-left"].aos-animate {
+  opacity: 1;
+  transform: rotateY(0deg); /* Termina el giro para que vuelva a su estado normal */
+}

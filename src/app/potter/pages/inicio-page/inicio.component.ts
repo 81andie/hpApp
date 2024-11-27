@@ -9,7 +9,13 @@ import 'aos/dist/aos.css';
 })
 export class InicioComponent implements OnInit{
   ngOnInit(): void {
-    AOS.init();
+    AOS.init({
+      duration: 1000,
+      easing: 'ease',
+      once: true,
+    }
+
+    );
   }
 
 }
