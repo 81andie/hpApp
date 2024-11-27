@@ -26,6 +26,8 @@
             "outputPath": {
               "base": "docs",
               "browser": ""
+
+
             },
             "index": "src/index.html",
             "browser": "src/main.ts",
