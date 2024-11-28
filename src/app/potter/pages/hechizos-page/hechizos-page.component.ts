@@ -1,8 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { Magia, Spell } from '../../interfaces/mago.interface';
 import { HarryPotterService } from '../../services/magos.service';
+import { map } from 'rxjs';
 
-declare var AOS: any; 
+declare var AOS: any;
 @Component({
   selector: 'app-hechizos-page',
   templateUrl: './hechizos-page.component.html',
@@ -15,7 +16,14 @@ export class HechizosPageComponent implements OnInit{
 
 
   ngOnInit(): void {
-this.getSpell();
+  this.getSpell();
+
+
+  AOS.init({
+    duration: 1000,
+    easing: 'ease',
+    once: true,
+  })
 
 }
 
@@ -24,13 +32,13 @@ getSpell(){
   this.harryPotterService.getSpells().subscribe(data =>{
     this.spells = data;
     console.log(this.spells)
+
   })
 
-  AOS.init({
-    duration: 1000,
-    easing: 'ease',
-    once: true,
-  });
 }
+
+
+
+
 
 }

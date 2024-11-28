@@ -8,11 +8,10 @@
   data-aos-offset="300"
   data-aos-easing="ease-in-sine"
   >
-    <p class="text-3xl text-center titulo1">✨Conoce todos los hechizos✨</p>
-    <p class="text-md text-justify p-3">Los hechizos dentro del extenso mundo de Harry Potter juegan un papel fundamental e imprescindible. Aquí encontrarás la lista más completa de hechizos, encantamientos y maldiciones del Mundo Mágico.
+    <p class="text-3xl text-center titulo1">✨{{"getAllSpells" | transloco}}✨</p>
+    <p class="text-md text-justify p-3">{{"paragraphSpell"| transloco}}
 
-      <br><br>📜 Los encantamientos son hechizos dentro del mundo de Harry Potter que añaden propiedades mágicas a un objeto o individuo, estos encantamientos pueden ser también de transfiguración, la cual conocerás más abajo. Un objeto que tiene un hechizo duradero se llama hechizado .
-      El lanzamiento exitoso de un hechizo y encantamiento necesita de una enorme precisión tanto en el movimiento de la varita como en la pronunciación adecuada.
+      <br><br>📜 {{"paragraphSpell1"| transloco}}
       🪄✨</p>
 
   </article>
@@ -22,7 +21,7 @@
 
 
 <div class="flex justify-center items-center">
-  <h1 class="text-6xl text-center titleSection  subtle-bounce">Spells</h1>
+  <h1 class="text-6xl text-center titleSection  subtle-bounce">{{"Spells"|transloco}}</h1>
   <img src="assets/images/leviosa1.png" class="spell w-56 subtle-bounce">
 </div>
 
@@ -36,7 +35,7 @@
     <div class="absolute bottom-0 left-0 w-full  bg-fuchsia-50 bg-opacity-75 py-0">
       <div class="text-fuchsia-500 text-center">
         <p class="text-xl text-black font-bold spell">{{spell.name}}</p>
-        <p class="description p-1 font-bold items-center">{{spell.description}}</p>
+        <p class="description p-1 font-bold items-center">{{ 'Spell.description.' + spell.name | transloco }}</p>
 
     </div>
   </div>
