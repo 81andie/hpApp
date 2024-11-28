@@ -1,1 +1,15 @@
-{}
+{
+  "HereIntro": "Aquí tens els principals estudiants d'aquesta saga, els vols conèixer?",
+  "WhatIsHogwarts?": "Però, què és Hogwarts?",
+  "ParagraphSchool": "El Col·legi Hogwarts de Magia i Hechiceria és una escola a la qual assisteixen joves mags per desenvolupar les seves habilitats màgiques. Pertany a l'univers de la saga de llibres de Harry Potter.",
+  "ArticleSchool": "L'edifici, situat a les muntanyes d'Escòcia, és vist com un antic edifici en runes amb un cartell que diu 'Cuidado, ruïnes perilloses', per les persones alienes a poders màgics (més coneguts com a muggles). Té set plantes, diverses torres, escales que canvien de posició a la seva voluntat i uns terrenys extensos que contenen un llac, un bosc anomenat El Bosc Prohibit, i diversos hivernacles amb fins botànics. A més de les nombroses aules on es donen les classes de pocions, transformacions, Defensa contra les Arts Oscures, Història de la màgia i altres assignatures per assistents qualificats, el castell posseeix llocs amb finalitats diferents. A continuació us presentem alguns dels estudiants més destacats de Hogwarts.",
+  "Students": "Estudiants de Hogwarts",
+  "estudent": {
+    "ancestry": {
+      "pure-blood": "Sang pura",
+      "half-blood": "Sang mestissa",
+      "muggleborn": "Nascut de muggles",
+      "notKnown": "Desconegut"
+    }
+  }
+}

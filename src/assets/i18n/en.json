@@ -1,1 +1,16 @@
-{}
+{
+  "HereIntro": "Here are the main students from this saga, would you like to meet them?",
+  "WhatIsHogwarts?": "But, what is Hogwarts?",
+  "ParagraphSchool": "Hogwarts School of Witchcraft and Wizardry is a school where young wizards attend to develop their magical skills. It belongs to the universe of the Harry Potter book series.",
+  "ArticleSchool": "The building, located in the Scottish hills, is seen as an ancient ruin with a sign saying 'Beware, dangerous ruins' by those outside of magical powers (more commonly known as muggles). It has seven floors, several towers, stairs that change position at will, and extensive grounds containing a lake, a forest called the Forbidden Forest, and various greenhouses for botanical purposes. In addition to its numerous classrooms where subjects like potions, transfiguration, Defense Against the Dark Arts, and History of Magic are taught by qualified staff, the castle has places for different purposes. Below are some of the most notable students of Hogwarts.",
+  "Students": "Hogwarts Students",
+  "estudent": {
+    "ancestry": {
+      "pure-blood": "Pure Blood",
+      "half-blood": "Half Blood",
+      "muggleborn": "Muggle Born",
+      "notKnown": "Not Known"
+    }
+  }
+}
+

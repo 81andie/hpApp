@@ -1,8 +1,12 @@
-<div class="flex flex-row justify-end text-xs">
-  <p-selectButton class= "rounded-sm"
+<form [formGroup]="myForm" class="flex flex-row justify-end text-xs"   id="language" >
+ <p-selectButton class= "rounded-sm"
       [options]="options"
-      formControlName="value"
+      formControlName="language"
       [multiple]="false"
       optionLabel="language"
-      optionValue="value" />
-</div>
+      optionValue="value"
+      (onChange)="onLanguageChange()"
+      ></p-selectButton>
+
+
+</form>

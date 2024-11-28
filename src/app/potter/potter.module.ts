@@ -12,6 +12,7 @@ import { IniSection1Component } from './pages/ini-section1/ini-section1.componen
 import { SectionIni2Component } from './pages/section-ini2/section-ini2.component';
 import { Section3IniComponent } from './pages/section3-ini/section3-ini.component';
 import { MagosPageComponent } from './pages/magos-page/magos-page.component';
+import { TranslocoModule } from '@ngneat/transloco';
 
 
 
@@ -33,7 +34,8 @@ import { MagosPageComponent } from './pages/magos-page/magos-page.component';
   imports: [
     CommonModule,
     PotterRoutingModule,
-    MaterialModule
+    MaterialModule,
+    TranslocoModule
   ]
 })
 export class PotterModule { }

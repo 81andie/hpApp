@@ -1,1 +1,15 @@
-{}
+{
+  "HereIntro": "Aquí tienes a los principales estudiantes de esta saga, ¿quieres conocerlos?",
+  "WhatIsHogwarts?": "Pero, ¿qué es Hogwarts?",
+  "ParagraphSchool": "El Colegio Hogwarts de Magia y Hechicería es una escuela a la que asisten jóvenes magos para desarrollar sus habilidades mágicas. Pertenece al universo de la saga de libros de Harry Potter.",
+  "ArticleSchool": "El edificio, situado en las colinas de Escocia, es visto como un antiguo edificio en ruinas con un cartel que dice 'Cuidado, ruinas peligrosas', por las personas ajenas a poderes mágicos (más comúnmente conocidos como muggles). Tiene siete plantas, varias torres, escaleras que cambian de posición a su antojo y extensos terrenos que contienen un lago, un bosque, llamado El Bosque Prohibido, y varios invernaderos con fines botánicos. Además de sus numerosas aulas en las que se imparten las clases de pociones, transformaciones, Defensa contra las Artes Oscuras, Historia de la magia y demás asignaturas por asistentes calificados, el castillo posee lugares con fines diferentes. A continuación os presentamos algunos de los estudiantes de Hogwarts más destacados.",
+  "Students": "Estudiantes de Hogwarts",
+  "estudent": {
+    "ancestry": {
+      "pure-blood": "Sangre pura",
+      "half-blood": "Sangre mestiza",
+      "muggleborn": "Nacido de muggles",
+      "notKnown": "Desconocido"
+    }
+  }
+}
