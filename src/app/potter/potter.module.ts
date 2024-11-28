@@ -14,6 +14,7 @@ import { Section3IniComponent } from './pages/section3-ini/section3-ini.componen
 import { MagosPageComponent } from './pages/magos-page/magos-page.component';
 
 
+
 @NgModule({
   declarations: [
     InicioComponent,
@@ -24,6 +25,7 @@ import { MagosPageComponent } from './pages/magos-page/magos-page.component';
     IniSection1Component,
     SectionIni2Component,
     Section3IniComponent,
+
 
 
 

@@ -7,6 +7,7 @@ import { SharedModule } from './shared/shared.module';
 import { HttpClientModule } from '@angular/common/http';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { TranslocoRootModule } from './transloco-root.module';
 
 
 
@@ -23,6 +24,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     SharedModule,
     HttpClientModule,
     BrowserAnimationsModule,
+    TranslocoRootModule,
 
 
   ],

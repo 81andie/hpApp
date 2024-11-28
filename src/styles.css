@@ -17,12 +17,19 @@ body { margin: 0;
 
   }
   .p-component {
-    color: rgb(233, 180, 47);
-    font-family: 'Almendra', serif !important;
+
     font-weight: 400;
+
+    color: white;
+    border-radius: 10px;
+    margin:2px;
   }
 
+  .p-button{
+    background: rgb(64, 63, 64);
+    border: 1px solid fuchsia;
+  }
 
-  .p-chips{
-    font-family: 'Almendra Display', serif !important;
+  .p-selectbutton .p-button.p-highlight {
+    background:none;
   }
