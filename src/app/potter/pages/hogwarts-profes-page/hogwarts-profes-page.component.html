@@ -31,9 +31,9 @@
 
   <div class="relative w-44 h-72 bg-fuchsia-100 rounded-md border-dotted border-2 border-fuchsia-400 mx-auto cursor-pointer  shadow-md" *ngFor="let staffs of staff" data-aos="flip-left"
   data-aos-easing="ease-out-cubic"
-  data-aos-duration="1800">
+  data-aos-duration="1000">
 
-   <img [src]="staffs.image ? staffs.image : 'https://th.bing.com/th/id/OIP.UW63Qyl9ZW9x7AY3Iu2AJQHaHa?w=202&h=202&c=7&r=0&o=5&dpr=1.7&pid=1.7'" class="absolute inset-0 w-full h-48 object-cover rounded-md"/>
+   <img [src]="staffs.image ? staffs.image : 'https://th.bing.com/th/id/OIP.UW63Qyl9ZW9x7AY3Iu2AJQHaHa?w=202&h=202&c=7&r=0&o=5&dpr=1.7&pid=1.7'" loading="lazy" class="absolute inset-0 w-full h-48 object-cover rounded-md"/>
     <div class="absolute bottom-0 left-0 w-full  bg-fuchsia-50 bg-opacity-75 py-0">
       <div class="text-fuchsia-500 text-center">
         <p class="text-xl text-black font-bold spell">{{staffs.name}}</p>

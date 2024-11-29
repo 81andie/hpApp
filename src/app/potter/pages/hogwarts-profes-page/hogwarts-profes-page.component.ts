@@ -3,7 +3,7 @@ import { Magia } from '../../interfaces/mago.interface';
 import { HarryPotterService } from '../../services/magos.service';
 
 
-declare var AOS: any; 
+declare var AOS: any;
 
 @Component({
   selector: 'app-hogwarts-profes-page',
@@ -23,7 +23,7 @@ export class HogwartsProfesPageComponent  implements OnInit{
     })
 
     AOS.init({
-      duration: 3000,
+      duration: 1000,
       easing: 'ease',
       once: true,
     });
