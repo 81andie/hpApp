@@ -108,5 +108,16 @@
   "getTeachersParag1": "Els professors de Hogwarts utilitzen el títol de Mestre quan parlen amb molts estudiants.",
   "getTeachersParag2": "El terme senyor o Madame és un terme alternatiu per al professor depenent del gènere del professor. Mentre que ells parlant amb els col·legials normalment utilitzen el primer nom. La majoria dels mestres es refereixen pel primer nom als seus companys de treball; tanmateix, aquest no és el cas del Professor Snape, qui prefereix utilitzar els cognoms, per exemple, al cridar a Remus Lupin, Lupin, o a Gilderoy Lockhart, professor Lockhart al Club de Duels a Harry Potter i la Cambra Secreta. Els professors a més tenen la facultat de concedir o treure punts.",
   "teachers": "Professors de Hogwarts",
-  "introIniSection1": "Troba el que vulguis sobre el món màgic de Harry Potter."
+
+  "introIniSection1": "Troba el que vulguis sobre el món màgic de Harry Potter.",
+  "introIni": "Troba totes les novetats a la nostra pàgina",
+  "welcome": "Benvingut al teu portal màgic!",
+  "getExplore": "Explora el fascinant món de Harry Potter, on els encanteris cobren vida, els mags més poderosos deixen la seva empremta i els secrets de Hogwarts t'estan esperant.",
+  "getExploreParag1": "Descobreix tot sobre: Els professors i mags que van marcar la història del món màgic. Els encanteris més icònics i els seus usos quotidians entre els mags. Les últimes novetats sobre les pel·lícules, els llibres i contingut especial. Prepara't per submergir-te en una aventura màgica, i recorda que en aquesta web, la màgia mai s'acaba!",
+  "getWizards": "Prepara't per quedar encantat mentre descobrim la màgia i els misteris darrere dels personatges més poderosos de Harry Potter.",
+  "leadingMagicians": "Els mags principals i les seves curiositats",
+  "getWizardsParag": "Cada entrada va acompanyada d'algunes dades interessants que intrigaran fins i tot als Potterheads més experts.",
+  "getWizardsPara1": "La força es mesura per la seva habilitat màgica, però no totes les bruixes i mags més poderosos van néixer amb el talent increïble que tenien. Alguns, com la Hermione Granger, van treballar i estudiar molt per millorar les seves habilitats.",
+  "WizardsOfHogwarts": "Mags de Hogwarts"
+
 }

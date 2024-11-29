@@ -105,5 +105,16 @@
   "getTeachersParag1": "The teachers of Hogwarts use the title of Master when speaking to many students.",
   "getTeachersParag2": "The term Mr. or Madame is an alternative term for the teacher depending on the gender of the teacher. While speaking to the students, they usually use the first name. Most teachers refer to their colleagues by their first name; however, this is not the case with Professor Snape, who prefers to use surnames, for example, when calling Remus Lupin, Lupin, or Gilderoy Lockhart, Professor Lockhart at the Duelling Club in Harry Potter and the Chamber of Secrets. Teachers also have the authority to award or deduct points.",
   "teachers": "Teachers of Hogwarts",
-   "introIniSection1": "Find whatever you want about the magical world of Harry Potter."
-}
+   "introIniSection1": "Find whatever you want about the magical world of Harry Potter.",
+   "introIni": "Find all the latest news on our page",
+  "welcome": "Welcome to your magical portal!",
+  "getExplore": "Explore the fascinating world of Harry Potter, where spells come to life, the most powerful wizards leave their mark, and Hogwarts' secrets await you.",
+  "getExploreParag1": "Discover everything about: The teachers and wizards who shaped the history of the magical world. The most iconic spells and their everyday uses by wizards. The latest news about the movies, books, and special content. Get ready to dive into a magical adventure, and remember, in this web, magic never ends!",
+  "getWizards": "Get ready to be spellbound as we uncover the magic and mysteries behind Harry Potter's most powerful characters.",
+  "leadingMagicians": "The leading magicians and their curiosities",
+  "getWizardsParag": "Each entry is accompanied by fascinating facts that will intrigue even the most knowledgeable Potterheads.",
+  "getWizardsPara1": "Strength is measured by magical ability, but not all of the most powerful witches and wizards were born with incredible talent. Some, like Hermione Granger, worked and studied very hard to improve their skills.",
+  "WizardsOfHogwarts": "Wizards of Hogwarts"
+
+
+  }
