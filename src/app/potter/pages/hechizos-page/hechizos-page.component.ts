@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Magia, Spell } from '../../interfaces/mago.interface';
 import { HarryPotterService } from '../../services/magos.service';
-import { map } from 'rxjs';
+
 
 declare var AOS: any;
 @Component({
@@ -23,6 +23,8 @@ export class HechizosPageComponent implements OnInit{
     duration: 1000,
     easing: 'ease',
     once: true,
+    threshold: 0.5,
+   
   })
 
 }

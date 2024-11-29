@@ -1,5 +1,5 @@
 <div class="intro-titulo grid grid-cols-1 md:grid-cols-2 mb-2" >
-  <img src="assets/images/biblioteca.jpg" class="hodwarts"  data-aos="fade-right"
+  <img src="assets/images/biblioteca.jpg" loading="lazy" class="hodwarts"  data-aos="fade-right"
   data-aos-offset="300"
   data-aos-easing="ease-in-sine">
 
@@ -22,16 +22,16 @@
 
 <div class="flex justify-center items-center">
   <h1 class="text-6xl text-center titleSection  subtle-bounce">{{"Spells"|transloco}}</h1>
-  <img src="assets/images/leviosa1.png" class="spell w-56 subtle-bounce">
+  <img src="assets/images/leviosa1.png" loading="lazy" class="spell w-56 subtle-bounce">
 </div>
 
 <div class="flex flex-column md:flex-row flex-wrap justify-evenly gap-5 card w-5/6 md:ml-20 ml-9" >
-  <div class="relative w-44 h-72 bg-fuchsia-100 rounded-md border-dotted border-2 border-fuchsia-400 mx-auto cursor-pointer animate-fade-in-up shadow-md" *ngFor="let spell of spells"
+  <div class="relative w-44 h-72 bg-fuchsia-100 rounded-md border-dotted border-2 border-fuchsia-400 mx-auto cursor-pointer shadow-md" *ngFor="let spell of spells"
   data-aos="flip-left"
   data-aos-easing="ease-out-cubic"
-  data-aos-duration="1800">
+  data-aos-duration="800">
 
-    <img [src]="spell.image" class="absolute inset-0 w-full h-48 object-cover rounded-md"  />
+    <img [src]="spell.image" loading="lazy" class="absolute inset-0 w-full h-48 object-cover rounded-md"  />
     <div class="absolute bottom-0 left-0 w-full  bg-fuchsia-50 bg-opacity-75 py-0">
       <div class="text-fuchsia-500 text-center">
         <p class="text-xl text-black font-bold spell">{{spell.name}}</p>
