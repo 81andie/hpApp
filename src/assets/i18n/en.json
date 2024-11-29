@@ -104,5 +104,6 @@
   "getTeachers": "Meet the main teachers of Hogwarts",
   "getTeachersParag1": "The teachers of Hogwarts use the title of Master when speaking to many students.",
   "getTeachersParag2": "The term Mr. or Madame is an alternative term for the teacher depending on the gender of the teacher. While speaking to the students, they usually use the first name. Most teachers refer to their colleagues by their first name; however, this is not the case with Professor Snape, who prefers to use surnames, for example, when calling Remus Lupin, Lupin, or Gilderoy Lockhart, Professor Lockhart at the Duelling Club in Harry Potter and the Chamber of Secrets. Teachers also have the authority to award or deduct points.",
-  "teachers": "Teachers of Hogwarts"
+  "teachers": "Teachers of Hogwarts",
+   "introIniSection1": "Find whatever you want about the magical world of Harry Potter."
 }
