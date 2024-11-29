@@ -8,6 +8,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TranslocoRootModule } from './transloco-root.module';
+import { TranslocoService } from '@ngneat/transloco';
 
 
 
@@ -28,9 +29,10 @@ import { TranslocoRootModule } from './transloco-root.module';
 
 
   ],
- 
+
   providers: [
-    provideAnimationsAsync()
+    provideAnimationsAsync(),
+    TranslocoService
   ],
   bootstrap: [AppComponent]
 })

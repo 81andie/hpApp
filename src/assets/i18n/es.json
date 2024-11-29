@@ -1,4 +1,13 @@
 {
+
+  "menu": {
+   
+    "inicio": "Inicio",
+    "magos": "Magos",
+    "estudiantes": "Estudiantes",
+    "hogwartsProfesores": "Hogwarts Profesores",
+    "todosHechizos": "Todos los Hechizos"
+  },
   "HereIntro": "Aquí tienes a los principales estudiantes de esta saga, ¿quieres conocerlos?",
   "WhatIsHogwarts?": "Pero, ¿qué es Hogwarts?",
   "ParagraphSchool": "El Colegio Hogwarts de Magia y Hechicería es una escuela a la que asisten jóvenes magos para desarrollar sus habilidades mágicas. Pertenece al universo de la saga de libros de Harry Potter.",
@@ -103,25 +112,31 @@
   "getTeachersParag1": "Los profesores de Hogwarts usan el título de Maestro cuando se habla con muchos estudiantes.",
   "getTeachersParag2": "El término señor o Madame es un término alternativo para el profesor dependiendo del género del profesor. Mientras que ellos hablando con los colegiales usualmente usan el primer nombre. La mayoría de los maestros se refieren por el primer nombre a sus compañeros de trabajo; sin embargo este no es el caso del Profesor Snape, quien prefiere usar los apellidos, por ejemplo al llamar a Remus Lupin, Lupin o a Gilderoy Lockhart profesor Lockhart en el Club de duelo en Harry Potter y la Cámara Secreta. Los profesores además tienen la facultad de conceder o quitar puntos.",
   "teachers": "Teachers of Hodwarts",
-
   "introIniSection1": "Encuentra lo que quieras sobre el mundo mágico de Harry Potter.",
   "introIni": "Encuentra todas las novedades en nuestra página",
   "welcome": "¡Bienvenido a tu portal mágico!",
   "getExplore": "Explora el fascinante mundo de Harry Potter, donde los hechizos cobran vida, los magos más poderosos dejan su huella, y los secretos de Hogwarts te esperan.",
   "getExploreParag1": "Descubre todo sobre:, Los maestros y magos que marcaron la historia del mundo mágico. Los hechizos más icónicos y sus usos en el día a día de los magos. Las últimas novedades de las películas, libros y contenido especial.Prepárate para sumergirte en una aventura mágica, ¡y recuerda que en esta web, la magia nunca termina!",
-
-  "getWizards":"Prepárate para quedarte hechizado mientras desenmascaramos la magia y los misterios detrás de los personajes más poderosos de Harry Potter",
+  "getWizards": "Prepárate para quedarte hechizado mientras desenmascaramos la magia y los misterios detrás de los personajes más poderosos de Harry Potter",
   "leadingMagicians": "Los principales magos y sus curiosidades",
-  "getWizardsParag":"Cada entrada acompañada de algunas interesantes curiosidades que intrigarán incluso a los Potterheads más conocedores.",
+  "getWizardsParag": "Cada entrada acompañada de algunas interesantes curiosidades que intrigarán incluso a los Potterheads más conocedores.",
   "getWizardsPara1": "La fuerza se mide por su habilidad mágica, pero no todas las brujas y magos más poderosos nacieron con el increíble talento que tenían. Algunos de ellos, como Hermione Granger, trabajaron y estudiaron muy duro para mejorar sus habilidades.",
   "WizardsOfHogwarts": "Magos of Hodwarts",
-
   "title-sec": "Esperamos con muchísima ilusión",
   "title-sec1": "la nueva pelicula",
   "title-film": "y el Legado Maldito",
   "sinopsis": "Sinopsis",
-  "descrip": " Harry Potter y el legado maldito es una obra de teatro de J.K. Rowling, Jack Thorne y John Tiffany que ha sido un gran éxito en Broadway y en el escenario del West End. La obra continúa con la hostoria de Harry Potter y las Reliquias de la Muerte y sigue la relación entre el hijo de Harry y el hijo de Draco: Albus Potter y Scorpius Malfoy, respectivamente. El rumor dice que Warner Bros adaptará la obra en una película y traerá de vuelta a Emma Watson, Rupert Grint y Daniel Radcliffe para retratar a sus personajes originales e icónicos."
+  "descrip": "Harry Potter y el legado maldito es una obra de teatro de J.K. Rowling, Jack Thorne y John Tiffany que ha sido un gran éxito en Broadway y en el escenario del West End. La obra continúa con la hostoria de Harry Potter y las Reliquias de la Muerte y sigue la relación entre el hijo de Harry y el hijo de Draco: Albus Potter y Scorpius Malfoy, respectivamente. El rumor dice que Warner Bros adaptará la obra en una película y traerá de vuelta a Emma Watson, Rupert Grint y Daniel Radcliffe para retratar a sus personajes originales e icónicos.",
 
 
+  "titleSection3": "Si todavia no has ningun libro de la trilogia, no te preocupes!!",
+  "titleSectionSpan": "Aqui tienes por dónde empezar!!",
+  "book1": "y la Piedra filosofal",
+  "book2": "y la Cámara Secreta",
+  "book3": "y el prisionero de Azkaban",
+  "book4": "y el Cáliz de Fuego",
+  "book5": "y La Orden del Fénix",
+  "book6": " y el Misterio del Príncipe",
+  "book7":"y las Reliquias de la Muerte"
 
 }

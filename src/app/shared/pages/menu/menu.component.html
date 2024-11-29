@@ -1,17 +1,20 @@
 
 
-<p-menubar [model]="menuItems" >
-
+<p-menubar [model]="menuItems">
   <ng-template Template="start" let-item>
-  <a *ngIf="item.routerLink;" [routerLink]="item.routerLink" class="p-menuitem-link">
-</a>
+    <ng-container *ngIf="item.label;" >
+      <a [routerLink]="item.routerLink" class="p-menuitem-link">{{"item.label"| transloco}}</a>
 
 
+    </ng-container>
 
-</ng-template>
+  </ng-template>
+
+
 
 <selector-language></selector-language>
 </p-menubar>
+
 
 
 

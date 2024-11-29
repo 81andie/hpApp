@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { MenuItem } from 'primeng/api';
+import { translate, TranslocoService } from '@ngneat/transloco';
 
 
 @Component({
@@ -7,18 +8,26 @@ import { MenuItem } from 'primeng/api';
   templateUrl: './menu.component.html',
   styleUrl: './menu.component.css'
 })
-export class MenuComponent {
+export class MenuComponent implements OnInit{
 
   public menuItems: MenuItem[]=[];
+  constructor (private translocoService: TranslocoService){
+
+  }
+
+
 
   ngOnInit(){
+
+
+
     this.menuItems = [
       {
-        label: 'Harry Potter App',
+        label: "Harry Potter App",
         icon: 'pi pi-bolt',
         items: [
           {
-            label: 'Inicio',
+            label: 'inicio',
             icon: 'pi pi-star-fill',
             routerLink: '/'
           },
@@ -48,10 +57,9 @@ export class MenuComponent {
 
         ]
       }
-
-
     ]
   }
-
-
 }
+
+
+

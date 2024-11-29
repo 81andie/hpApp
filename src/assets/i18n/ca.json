@@ -1,4 +1,13 @@
 {
+
+  "menu": {
+ 
+    "inicio": "Inici",
+    "magos": "Mags",
+    "estudiantes": "Estudiants",
+    "hogwartsProfesores": "Professors de Hogwarts",
+    "todosHechizos": "Tots els Encantaments"
+  },
   "HereIntro": "Aquí tens els principals estudiants d'aquesta saga, els vols conèixer?",
   "WhatIsHogwarts?": "Però, què és Hogwarts?",
   "ParagraphSchool": "El Col·legi Hogwarts de Magia i Hechiceria és una escola a la qual assisteixen joves mags per desenvolupar les seves habilitats màgiques. Pertany a l'univers de la saga de llibres de Harry Potter.",
@@ -123,6 +132,14 @@
   "title-sec1": "la nova pel·lícula",
   "title-film": "i El Llegat Maleït",
   "sinopsis": "Sinopsi",
-  "descrip": "Harry Potter i el Llegat Maleït és una obra de teatre de J.K. Rowling, Jack Thorne i John Tiffany que ha estat un gran èxit a Broadway i als escenaris del West End. L'obra continua la història de Harry Potter i les Relíquies de la Mort i segueix la relació entre el fill d'en Harry i el fill d'en Draco: l'Albus Potter i en Scorpius Malfoy, respectivament. Es rumoreja que Warner Bros adaptarà l'obra en una pel·lícula i portarà de tornada a Emma Watson, Rupert Grint i Daniel Radcliffe per interpretar els seus personatges originals i icònics."
-
+  "descrip": "Harry Potter i el Llegat Maleït és una obra de teatre de J.K. Rowling, Jack Thorne i John Tiffany que ha estat un gran èxit a Broadway i als escenaris del West End. L'obra continua la història de Harry Potter i les Relíquies de la Mort i segueix la relació entre el fill d'en Harry i el fill d'en Draco: l'Albus Potter i en Scorpius Malfoy, respectivament. Es rumoreja que Warner Bros adaptarà l'obra en una pel·lícula i portarà de tornada a Emma Watson, Rupert Grint i Daniel Radcliffe per interpretar els seus personatges originals i icònics.",
+  "titleSection3": "Si encara no tens cap llibre de la trilogia, no et preocupis!!",
+  "titleSectionSpan": "Aquí tens per on començar!!",
+  "book1": "i la Pedra Filosofal",
+  "book2": "i la Cambra Secreta",
+  "book3": "i el Prisioner d'Azkaban",
+  "book4": "i el Calze de Foc",
+  "book5": "i L'Ordre del Fènix",
+  "book6": "i el Misteri del Príncep",
+  "book7": "i les Relíquies de la Mort"
 }

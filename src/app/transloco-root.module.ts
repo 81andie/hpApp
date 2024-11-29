@@ -16,6 +16,8 @@ import { TranslocoHttpLoader } from './transloco-loader';
           // Remove this option if your application doesn't support changing language in runtime.
           reRenderOnLangChange: true,
           prodMode: !isDevMode(),
+          missingHandler: { logMissingKey: true }
+
         },
         loader: TranslocoHttpLoader
       }),

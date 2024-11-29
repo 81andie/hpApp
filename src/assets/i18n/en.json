@@ -1,4 +1,12 @@
 {
+
+  "menu": {
+    "inicio": "Home",
+    "magos": "Wizards",
+    "estudiantes": "Students",
+    "hogwartsProfesores": "Hogwarts Professors",
+    "todosHechizos": "All Spells"
+  },
   "HereIntro": "Here are the main students from this saga, would you like to meet them?",
   "WhatIsHogwarts?": "But, what is Hogwarts?",
   "ParagraphSchool": "Hogwarts School of Witchcraft and Wizardry is a school where young wizards attend to develop their magical skills. It belongs to the universe of the Harry Potter book series.",
@@ -119,7 +127,15 @@
   "title-sec1": "the new movie",
   "title-film": "and The Cursed Child",
   "sinopsis": "Synopsis",
-  "descrip": "Harry Potter and the Cursed Child is a play by J.K. Rowling, Jack Thorne, and John Tiffany that has been a huge success on Broadway and in the West End. The play continues the story from Harry Potter and the Deathly Hallows and explores the relationship between Harry's son and Draco's son: Albus Potter and Scorpius Malfoy, respectively. Rumor has it that Warner Bros will adapt the play into a movie and bring back Emma Watson, Rupert Grint, and Daniel Radcliffe to portray their original and iconic characters."
-
+  "descrip": "Harry Potter and the Cursed Child is a play by J.K. Rowling, Jack Thorne, and John Tiffany that has been a huge success on Broadway and in the West End. The play continues the story from Harry Potter and the Deathly Hallows and explores the relationship between Harry's son and Draco's son: Albus Potter and Scorpius Malfoy, respectively. Rumor has it that Warner Bros will adapt the play into a movie and bring back Emma Watson, Rupert Grint, and Daniel Radcliffe to portray their original and iconic characters.",
+  "titleSection3": "If you still don't have any book from the trilogy, don't worry!!",
+  "titleSectionSpan": "Here's where to start!!",
+  "book1": "and the Philosopher's Stone",
+  "book2": "and the Chamber of Secrets",
+  "book3": "and the Prisoner of Azkaban",
+  "book4": "and the Goblet of Fire",
+  "book5": "and the Order of the Phoenix",
+  "book6": "and the Half-Blood Prince",
+  "book7": "and the Deathly Hallows"
 
   }

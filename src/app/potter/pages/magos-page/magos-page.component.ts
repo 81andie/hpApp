@@ -6,7 +6,7 @@ import { HarryPotterService } from '../../services/magos.service';
 
 
 
-declare var AOS: any; 
+declare var AOS: any;
 
 @Component({
   selector: 'app-magos-page',
@@ -33,7 +33,7 @@ export class MagosPageComponent implements OnInit {
     })
 
     AOS.init({
-      duration: 1000,
+      duration: 1500,
       easing: 'ease',
       once: true,
     });
