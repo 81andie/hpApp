@@ -9,7 +9,8 @@
       "pure-blood": "Sang pura",
       "half-blood": "Sang mestissa",
       "muggleborn": "Nascut de muggles",
-      "notKnown": "Desconegut"
+      "notKnown": "Desconegut",
+      "squib": "Squib"
     }
   },
 
@@ -94,12 +95,18 @@
     "Spongify": "Suavitza l'objectiu",
     "Stupefy": "L'encanteri Atordir congela objectes i deixa inconscients els objectius vius",
     "Tarantallegra": "Dirigit a les cames, provoca que les mogui involuntariament",
-    "Unbreakable Vow": "Es un contracte mágic que mati a qui el trenca", 
+    "Unbreakable Vow": "Es un contracte mágic que mati a qui el trenca",
     "Wingardium Leviosa": "És conegut com l'Encantament de Levitació, utilitzat per fer levitar objectes de manera controlada.",
     "Waddiwasi": "Expulsa objetos atascados en lugares como tubos o chimeneas",
     "Wildfire Whiz-bang": "Crea un espectáculo de fuegos artificiales mágicos"
 
   }
-  }
+  },
+
+  "introtitle1": "Aquí tens els mestres d'aquesta saga, vols conèixer-los?",
+  "getTeachers": "Coneix els principals professors de Hogwarts",
+  "getTeachersParag1": "Els professors de Hogwarts utilitzen el títol de Mestre quan parlen amb molts estudiants.",
+  "getTeachersParag2": "El terme senyor o Madame és un terme alternatiu per al professor depenent del gènere del professor. Mentre que ells parlant amb els col·legials normalment utilitzen el primer nom. La majoria dels mestres es refereixen pel primer nom als seus companys de treball; tanmateix, aquest no és el cas del Professor Snape, qui prefereix utilitzar els cognoms, per exemple, al cridar a Remus Lupin, Lupin, o a Gilderoy Lockhart, professor Lockhart al Club de Duels a Harry Potter i la Cambra Secreta. Els professors a més tenen la facultat de concedir o treure punts.",
+  "teachers": "Professors de Hogwarts"
 
 }

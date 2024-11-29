@@ -9,7 +9,8 @@
       "pure-blood": "Sangre pura",
       "half-blood": "Sangre mestiza",
       "muggleborn": "Nacido de muggles",
-      "notKnown": "Desconocido"
+      "notKnown": "Desconocido",
+       "squib": "Squib"
     }
   },
 
@@ -97,5 +98,10 @@
     "Unbreakable Vow": "Un contrato mágico que provoca la muerte de quien lo rompe.",
     "Wingardium Leviosa": "Hace levitar un objeto"
   }
-}
+},
+"introtitle1": "Aqui tienes los maestros de esta saga, quieres conocerlos?",
+"getTeachers": "Conoce a los principales profesores de Hogwarts",
+"getTeachersParag1": "Los profesores de Hogwarts usan el título de Maestro cuando se habla con muchos estudiantes.",
+"getTeachersParag2": "El término señor o Madame es un término alternativo para el profesor dependiendo del género del profesor. Mientras que ellos hablando con los colegiales usualmente usan el primer nombre. La mayoría de los maestros se refieren por el primer nombre a sus compañeros de trabajo; sin embargo este no es el caso del Profesor Snape, quien prefiere usar los apellidos, por ejemplo al llamar a Remus Lupin, Lupin o a Gilderoy Lockhart profesor Lockhart en el Club de duelo en Harry Potter y la Cámara Secreta. Los profesores además tienen la facultad de conceder o quitar puntos.",
+ "teachers": "Teachers of Hodwarts"
 }
