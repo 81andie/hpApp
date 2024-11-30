@@ -5,6 +5,7 @@ import { EstudiantesHogwartsPageComponent } from './pages/estudiantes-hogwarts-p
 import { HogwartsProfesPageComponent } from './pages/hogwarts-profes-page/hogwarts-profes-page.component';
 import { HechizosPageComponent } from './pages/hechizos-page/hechizos-page.component';
 import { InicioComponent } from './pages/inicio-page/inicio.component';
+import { Error404pageComponent } from './pages/error404page/error404page.component';
 
 const routes: Routes = [
 
@@ -32,6 +33,8 @@ const routes: Routes = [
     path: 'hechizos',
     component: HechizosPageComponent
   },
+
+  { path: '**', component: Error404pageComponent} 
 
 
 
