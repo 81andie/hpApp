@@ -13,8 +13,6 @@ export class MenuComponent implements OnInit{
   public menuItems: MenuItem[]=[];
   constructor (private translocoService: TranslocoService){}
 
-
-
   ngOnInit(){
     this.translocoService
     .selectTranslateObject('menu')
