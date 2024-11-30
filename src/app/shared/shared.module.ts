@@ -5,7 +5,7 @@ import { MenuComponent } from './pages/menu/menu.component';
 import { FooterComponent } from './pages/footer/footer.component';
 import { SelectorLanguageComponent } from '../potter/pages/selector-language/selector-language.component';
 import { ReactiveFormsModule } from '@angular/forms';
-import { TranslocoModule } from '@ngneat/transloco';
+
 
 
 
@@ -20,7 +20,7 @@ import { TranslocoModule } from '@ngneat/transloco';
     CommonModule,
     MaterialModule,
     ReactiveFormsModule,
-    TranslocoModule
+   
   ],
   exports: [
     MenuComponent,
