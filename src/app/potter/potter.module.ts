@@ -15,6 +15,7 @@ import { MagosPageComponent } from './pages/magos-page/magos-page.component';
 import { TranslocoModule } from '@ngneat/transloco';
 import { Error404pageComponent } from './pages/error404page/error404page.component';
 import { SharedModule } from "../shared/shared.module";
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -39,7 +40,8 @@ import { SharedModule } from "../shared/shared.module";
     PotterRoutingModule,
     MaterialModule,
     TranslocoModule,
-    SharedModule
+    SharedModule,
+    FormsModule
 ]
 })
 export class PotterModule { }

@@ -13,6 +13,8 @@ export class Error404pageComponent implements OnInit{
       easing: 'ease',
       once: true,
     });
-  }
+
 
 }
+}
+
