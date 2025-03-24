@@ -1,27 +1,35 @@
-# HpApp
+# HpApp  
+# Harry Potter App ✨🧙‍♂️
+[Ver la página web](https://81andie.github.io/hpApp/)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.9.
+Este proyecto ha sido desarrollado con  [Angular CLI](https://github.com/angular/angular-cli) version 17.0.9.
 
-## Development server
+Bienvenidos, al mundo de Harry Potter!!! Esta es una App que os ayudará a entender los principales personales, ver las últimas novedades, ver cuantos libros hay de Harry Potter y todos sus hechizos! Si os gusta el mundo mágico es vuestro sitio...
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+![mockDrop_Beer or Tea_ (4) (1)](https://github.com/user-attachments/assets/0b7ae5be-ea89-459a-975e-7bcd9eed1c11)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Requisitos
+Antes de ejecutar este proyecto, asegúrate de tener instalado:
 
-## Build
+- **Node.js** (recomendado la versión 18.x o superior)
+- **npm** (gestor de paquetes de Node.js)
+- **Angular CLI** (puedes instalarlo globalmente con `npm install -g @angular/cli`)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🚀 Instalación y ejecución
 
-## Running unit tests
+### 1️⃣ Clonar el repositorio  
+```bash
+https://github.com/81andie/hpApp.git
+cd Aqvae
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
 
-## Running end-to-end tests
+### Ejecutar en modo desarrollo
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+ng serve
 
-## Further help
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+[Texto del enlace](https://81andie.github.io/hpApp/)
