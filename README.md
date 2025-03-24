@@ -1,7 +1,11 @@
 # HpApp  
 # Harry Potter App ✨🧙‍♂️
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.9.
+Este proyecto ha sido desarrollado con  [Angular CLI](https://github.com/angular/angular-cli) version 17.0.9.
+
+Bienvenidos, al mundo de Harry Potter!!! Esta es una App que os ayudará a entender los principales personales, ver las últimas novedades, ver cuantos libros hay de Harry Potter y todos sus hechizos! Si os gusta el mundo mágico es vuestro sitio...
+![mockDrop_Apple Pencil close by (4)](https://github.com/user-attachments/assets/1025e525-285d-4b24-8d34-fade8583fb6f)
+
 
 ## Development server
 
