@@ -1,6 +1,6 @@
 # HpApp  
 # Harry Potter App ✨🧙‍♂️
-[Texto del enlace](https://81andie.github.io/hpApp/)
+[Ver la página web](https://81andie.github.io/hpApp/)
 
 Este proyecto ha sido desarrollado con  [Angular CLI](https://github.com/angular/angular-cli) version 17.0.9.
 
