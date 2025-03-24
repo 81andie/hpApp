@@ -1,4 +1,5 @@
-# HpApp  Harry Potter App ![Harry Potter Icon](https://example.com/icono-de-harry-potter.png)
+# HpApp  
+Harry Potter App ✨🧙‍♂️
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.9.
 
