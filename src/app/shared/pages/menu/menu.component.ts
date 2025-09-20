@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { MenuItem } from 'primeng/api';
+import { translate, TranslocoService } from '@ngneat/transloco';
 
 
 @Component({
@@ -7,51 +8,41 @@ import { MenuItem } from 'primeng/api';
   templateUrl: './menu.component.html',
   styleUrl: './menu.component.css'
 })
-export class MenuComponent {
+export class MenuComponent implements OnInit{
 
   public menuItems: MenuItem[]=[];
+  constructor (private translocoService: TranslocoService){}
 
   ngOnInit(){
+    this.translocoService
+    .selectTranslateObject('menu')
+    .subscribe((menuTranslations) => {
+      this.menuItems = [
+        { label: menuTranslations.inicio, icon: 'pi pi-home', routerLink: ['/'] },
+        { label: menuTranslations.magos, icon: 'pi pi-star', routerLink: ['magos'] },
+        { label: menuTranslations.estudiantes, icon: 'pi pi-users', routerLink: ['estudiantes'] },
+        { label: menuTranslations.hogwartsProfesores, icon: 'pi pi-book', routerLink: ['profesores'] },
+        { label: menuTranslations.todosHechizos, icon: 'pi pi-tags', routerLink: ['hechizos'] },
+      ];
+    });
+
+    this.translocoService.langChanges$.subscribe(() => {
+      this.updateMenuItems();
+    });
+
+
+}
+
+private updateMenuItems() {
+  this.translocoService.selectTranslateObject('menu').subscribe((menuTranslations) => {
     this.menuItems = [
-      {
-        label: 'Harry Potter App',
-        icon: 'pi pi-bolt',
-        items: [
-          {
-            label: 'Inicio',
-            icon: 'pi pi-star-fill',
-            routerLink: '/'
-          },
+      { label: menuTranslations.inicio, icon: 'pi pi-home', routerLink: ['/'] },
+      { label: menuTranslations.magos, icon: 'pi pi-star', routerLink: ['magos'] },
+      { label: menuTranslations.estudiantes, icon: 'pi pi-users', routerLink: ['estudiantes'] },
+      { label: menuTranslations.hogwartsProfesores, icon: 'pi pi-book', routerLink: ['profesores'] },
+      { label: menuTranslations.todosHechizos, icon: 'pi pi-tags', routerLink: ['hechizos'] },
+    ];
+  });
 
-
-          {
-            label: 'Magos',
-            icon: 'pi pi-star-fill',
-            routerLink: 'magos'
-          },
-          {
-            label: 'Estudiantes',
-            icon: 'pi pi-users',
-            routerLink: 'estudiantes'
-          },
-          {
-            label: 'Hogwarts Profesores',
-            icon: 'pi pi-book',
-            routerLink: 'profesores'
-          },
-
-          {
-            label: ' Todos los Hechizos',
-            icon: 'pi pi-tags',
-            routerLink: 'hechizos'
-          },
-
-        ]
-      }
-
-
-    ]
-  }
-
-
+}
 }
