@@ -6,7 +6,7 @@ import { HarryPotterService } from '../../services/magos.service';
 
 
 
-declare var AOS: any; 
+declare var AOS: any;
 
 @Component({
   selector: 'app-magos-page',
@@ -23,9 +23,6 @@ export class MagosPageComponent implements OnInit {
 
 
 
-
-
-
   async ngOnInit(): Promise<void> {
     this.harryPotterServicios.getCharacters().subscribe(data => {
       this.magias = data.slice( 0, 16);
@@ -39,8 +36,6 @@ export class MagosPageComponent implements OnInit {
     });
 
   }
-
-
 
 }
 

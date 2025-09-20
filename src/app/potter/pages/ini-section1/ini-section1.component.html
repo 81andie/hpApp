@@ -1,6 +1,6 @@
 <div class= "bg-fuchsia-50 text-center p-2" data-aos="fade-up"
 data-aos-anchor-placement="bottom-bottom">
-  <p class="text-black tituloSection1 text-2xl">Encuentra lo que quieras sobre el mundo mágico de Harry Potter</p>
+  <p class="text-black tituloSection1 text-2xl">{{"introIniSection1"| transloco}}</p>
  <!--<div class="grid grid-cols-2 md:grid-cols-4 gap-2 p-1">-->
     <!-- Estudiantes -->
 
@@ -9,7 +9,7 @@ data-aos-anchor-placement="bottom-bottom">
       [routerLink]="['/estudiantes']"
       data-aos="flip-left"
       data-aos-easing="ease-out-cubic"
-      data-aos-duration="3000"
+      data-aos-duration="1800"
 
     >
       <img src="assets/images/harry.jpg" class="absolute inset-0 w-full h-full object-cover rounded-md" />
@@ -22,13 +22,13 @@ data-aos-anchor-placement="bottom-bottom">
     <div
       class="relative w-32 h-32 bg-fuchsia-100 rounded-md border-dotted border-2 border-fuchsia-400 mx-auto cursor-pointer"  data-aos="flip-left"
       data-aos-easing="ease-out-cubic"
-      data-aos-duration="3000"
+      data-aos-duration="1800"
       [routerLink]="['/hechizos']"
 
     >
       <img src="assets/images/olomora.jpg" class="absolute inset-0 w-full h-full object-cover rounded-md" />
       <div class="absolute bottom-0 h-7 left-0 w-full bg-fuchsia-50 bg-opacity-75 py-1">
-        <p class="text-fuchsia-600 text-lg">Hechizos</p>
+        <p class="text-fuchsia-600 text-lg">{{"Spells" | transloco}}</p>
       </div>
     </div>
 
@@ -36,12 +36,12 @@ data-aos-anchor-placement="bottom-bottom">
     <div
       class="relative w-32 h-32 bg-fuchsia-100 rounded-md border-dotted border-2 border-fuchsia-400 mx-auto cursor-pointer"  data-aos="flip-left"
       data-aos-easing="ease-out-cubic"
-      data-aos-duration="3000"
-      [routerLink]="['/maestros']"
+      data-aos-duration="1800"
+      [routerLink]="['/profesores']"
     >
       <img src="assets/images/maestros.jpg" class="absolute inset-0 w-full h-full object-cover rounded-md" />
-      <div class="absolute bottom-0 left-0 w-full h-7 bg-fuchsia-50 bg-opacity-75 py-1">
-        <p class="text-fuchsia-600 text-lg">Maestros</p>
+      <div class="absolute bottom-0 left-0 w-full h-9 bg-fuchsia-50 bg-opacity-75 py-1">
+        <p class="text-fuchsia-600 text-xs">{{"teachers"|transloco}}</p>
       </div>
     </div>
 
@@ -49,7 +49,3 @@ data-aos-anchor-placement="bottom-bottom">
 
   </div>
 </div>
-
-
-
-
