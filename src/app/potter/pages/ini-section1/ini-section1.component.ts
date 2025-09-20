@@ -1,14 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 
 
-declare var AOS: any; 
+declare var AOS: any;
 
 @Component({
   selector: 'ini-section1',
   templateUrl: './ini-section1.component.html',
   styleUrl: './ini-section1.component.css'
 })
-export class IniSection1Component  implements OnInit {
+export class IniSection1Component implements OnInit {
   ngOnInit(): void {
     AOS.init(
       {

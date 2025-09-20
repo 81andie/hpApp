@@ -11,6 +11,7 @@ declare var AOS: any;
   styleUrl: './hogwarts-profes-page.component.css'
 })
 export class HogwartsProfesPageComponent  implements OnInit{
+
   staff: Magia[]=[];
 
   constructor (private harryPotterService: HarryPotterService){ }

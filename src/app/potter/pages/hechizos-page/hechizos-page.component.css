@@ -1,9 +1,7 @@
 
-
 .spell{
   filter: drop-shadow(0 0 0.75rem rgb(191, 97, 249));
 }
-
 
 @keyframes subtle-bounce {
   0%, 100% {
@@ -17,11 +15,13 @@
 .subtle-bounce {
   animation: subtle-bounce 2s ease-in-out infinite; /* Duración y suavidad ajustadas */
 }
+
 .spell,
 .titleSection{
   filter: drop-shadow(0 0 0.75rem rgb(186, 81, 251));
   font-family: "Dancing Script", cursive;
 }
+
 .description{
   font-size:0.7rem;
   line-height: 9px;

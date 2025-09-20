@@ -24,7 +24,7 @@ export class HechizosPageComponent implements OnInit{
     easing: 'ease',
     once: true,
     threshold: 0.5,
-   
+
   })
 
 }
@@ -38,9 +38,6 @@ getSpell(){
   })
 
 }
-
-
-
 
 
 }
