@@ -1,3 +1,4 @@
+import { TranslocoService } from '@ngneat/transloco';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { LanguageService } from '../../services/languageService';
@@ -20,7 +21,7 @@ export class SelectorLanguageComponent  implements OnInit {
   ]
 
   public myForm: FormGroup = this.fb.group({
-    language: ['ca'],
+    language: [''],
   })
 
   constructor(
@@ -34,9 +35,15 @@ export class SelectorLanguageComponent  implements OnInit {
 
 onLanguageChange(){
   const selectedLanguage = this.myForm.get('language')?.value;
+  const currentLanguage= this.languageService.getActiveLanguage();
+
+if(selectedLanguage !== currentLanguage){
   this.languageService.setLanguage(selectedLanguage);
-  console.log(selectedLanguage);
-  //console.log("hello")
+  console.log(`Idioma cambiado a: ${selectedLanguage}`)
+}else{
+  console.log(`El idioma ya está activo: ${selectedLanguage}`);
+}
+
 }
 
 

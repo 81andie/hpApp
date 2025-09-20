@@ -14,6 +14,7 @@ import { Section3IniComponent } from './pages/section3-ini/section3-ini.componen
 import { MagosPageComponent } from './pages/magos-page/magos-page.component';
 import { TranslocoModule } from '@ngneat/transloco';
 import { Error404pageComponent } from './pages/error404page/error404page.component';
+import { SharedModule } from "../shared/shared.module";
 
 
 
@@ -37,7 +38,8 @@ import { Error404pageComponent } from './pages/error404page/error404page.compone
     CommonModule,
     PotterRoutingModule,
     MaterialModule,
-    TranslocoModule
-  ]
+    TranslocoModule,
+    SharedModule
+]
 })
 export class PotterModule { }

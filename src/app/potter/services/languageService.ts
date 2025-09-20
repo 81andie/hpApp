@@ -11,4 +11,8 @@ export class LanguageService {
   setLanguage(lang:string){
     this.translocoService.setActiveLang(lang)
   }
+
+  getActiveLanguage(): string {
+    return this.translocoService.getActiveLang();
+  }
 }
