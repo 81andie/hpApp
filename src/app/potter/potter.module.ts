@@ -13,6 +13,7 @@ import { SectionIni2Component } from './pages/section-ini2/section-ini2.componen
 import { Section3IniComponent } from './pages/section3-ini/section3-ini.component';
 import { MagosPageComponent } from './pages/magos-page/magos-page.component';
 import { TranslocoModule } from '@ngneat/transloco';
+import { Error404pageComponent } from './pages/error404page/error404page.component';
 
 
 
@@ -26,6 +27,7 @@ import { TranslocoModule } from '@ngneat/transloco';
     IniSection1Component,
     SectionIni2Component,
     Section3IniComponent,
+    Error404pageComponent,
 
 
 
