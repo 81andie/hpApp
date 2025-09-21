@@ -1,4 +1,12 @@
 {
+
+  "menu": {
+    "inicio": "Home",
+    "magos": "Wizards",
+    "estudiantes": "Students",
+    "hogwartsProfesores": "Hogwarts Professors",
+    "todosHechizos": "All Spells"
+  },
   "HereIntro": "Here are the main students from this saga, would you like to meet them?",
   "WhatIsHogwarts?": "But, what is Hogwarts?",
   "ParagraphSchool": "Hogwarts School of Witchcraft and Wizardry is a school where young wizards attend to develop their magical skills. It belongs to the universe of the Harry Potter book series.",
@@ -104,5 +112,30 @@
   "getTeachers": "Meet the main teachers of Hogwarts",
   "getTeachersParag1": "The teachers of Hogwarts use the title of Master when speaking to many students.",
   "getTeachersParag2": "The term Mr. or Madame is an alternative term for the teacher depending on the gender of the teacher. While speaking to the students, they usually use the first name. Most teachers refer to their colleagues by their first name; however, this is not the case with Professor Snape, who prefers to use surnames, for example, when calling Remus Lupin, Lupin, or Gilderoy Lockhart, Professor Lockhart at the Duelling Club in Harry Potter and the Chamber of Secrets. Teachers also have the authority to award or deduct points.",
-  "teachers": "Teachers of Hogwarts"
-}
+  "teachers": "Teachers of Hogwarts",
+   "introIniSection1": "Find whatever you want about the magical world of Harry Potter.",
+   "introIni": "Find all the latest news on our page",
+  "welcome": "Welcome to your magical portal!",
+  "getExplore": "Explore the fascinating world of Harry Potter, where spells come to life, the most powerful wizards leave their mark, and Hogwarts' secrets await you.",
+  "getExploreParag1": "Discover everything about: The teachers and wizards who shaped the history of the magical world. The most iconic spells and their everyday uses by wizards. The latest news about the movies, books, and special content. Get ready to dive into a magical adventure, and remember, in this web, magic never ends!",
+  "getWizards": "Get ready to be spellbound as we uncover the magic and mysteries behind Harry Potter's most powerful characters.",
+  "leadingMagicians": "The leading magicians and their curiosities",
+  "getWizardsParag": "Each entry is accompanied by fascinating facts that will intrigue even the most knowledgeable Potterheads.",
+  "getWizardsPara1": "Strength is measured by magical ability, but not all of the most powerful witches and wizards were born with incredible talent. Some, like Hermione Granger, worked and studied very hard to improve their skills.",
+  "WizardsOfHogwarts": "Wizards of Hogwarts",
+  "title-sec": "We eagerly await",
+  "title-sec1": "the new movie",
+  "title-film": "and The Cursed Child",
+  "sinopsis": "Synopsis",
+  "descrip": "Harry Potter and the Cursed Child is a play by J.K. Rowling, Jack Thorne, and John Tiffany that has been a huge success on Broadway and in the West End. The play continues the story from Harry Potter and the Deathly Hallows and explores the relationship between Harry's son and Draco's son: Albus Potter and Scorpius Malfoy, respectively. Rumor has it that Warner Bros will adapt the play into a movie and bring back Emma Watson, Rupert Grint, and Daniel Radcliffe to portray their original and iconic characters.",
+  "titleSection3": "If you still don't have any book from the trilogy, don't worry!!",
+  "titleSectionSpan": "Here's where to start!!",
+  "book1": "and the Philosopher's Stone",
+  "book2": "and the Chamber of Secrets",
+  "book3": "and the Prisoner of Azkaban",
+  "book4": "and the Goblet of Fire",
+  "book5": "and the Order of the Phoenix",
+  "book6": "and the Half-Blood Prince",
+  "book7": "and the Deathly Hallows"
+
+  }
